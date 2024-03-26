@@ -54,7 +54,7 @@
 
 	&--dark &__inner {
 
-		background-color: #181816;
+		background-color: var(--bgBorder);
 
 		@media $desktop {
 

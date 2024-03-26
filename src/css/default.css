@@ -144,6 +144,7 @@ hr {
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 32px;
+	margin: 10px 0;
 
 }
 
@@ -156,7 +157,7 @@ hr {
 	&__inner {
 
 		border-radius: 10px;
-		background-color: #181816;
+		background-color: var(--bgBorder);
 
 	}
 

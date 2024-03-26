@@ -6,15 +6,7 @@
 
 			const btn = event.target.closest('.menu__btn');
 
-			if ( btn ) {
-
-				btn.classList.toggle('is-open');
-
-			} else {
-
-				[...btns].forEach( btn => btn.classList.remove('is-open'));
-
-			}
+			[...btns].forEach( _btn => _btn.classList.toggle('is-open', btn !== null && _btn === btn ));
 
 		});
 

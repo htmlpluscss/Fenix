@@ -54,6 +54,12 @@
 
 		}
 
+		&.is-open {
+
+			--bgBorder: var(--brown);
+
+		}
+
 	}
 
 	&__open-hidden,
@@ -70,6 +76,12 @@
 	}
 
 	@media $desktop {
+
+		&:hover .btn {
+
+			--bgBorder: var(--brown);
+
+		}
 
 		&:hover &__list {
 
