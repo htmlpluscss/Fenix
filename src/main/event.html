@@ -1,0 +1,167 @@
+		<section class="event" id="event">
+
+			<div class="center">
+
+				<div class="event__main">
+
+					<div class="event__main-photo">
+
+						<a href="https://youtu.be/Oi4bzcq-w5s" target="_blank" data-youtube="Oi4bzcq-w5s" rel="nofollow noopener" class="event__video" title="video">
+
+							<picture>
+
+								<source srcset="/img/event/main--320x284.webp" type="image/webp" media="(max-width: 360px)">
+								<source srcset="/img/event/main--320x284.jpg" media="(max-width: 360px)">
+
+								<source srcset="/img/event/main--1328x960.webp" type="image/webp" media="(max-width: 1199px)">
+								<source srcset="/img/event/main--1328x960.jpg" media="(max-width: 1199px)">
+
+								<source srcset="/img/event/main--540x480.webp 1x, /img/event/main--1080x960.webp 2x" type="image/webp">
+								<source srcset="/img/event/main--540x480.jpg 1x, /img/event/main--1080x960.jpg 2x">
+
+								<img src="/img/event/main--540x480.jpg" width="540" height="480" alt="" loading="lazy">
+
+							</picture>
+
+							<span class="event__video-ico">
+								<svg width="72" height="72" viewBox="0 0 72 72">
+									<path d="M36 66a30 30 0 1 1 0-60 30 30 0 0 1 0 60Zm-4.13-40.75a1.2 1.2 0 0 0-1.87 1v19.5a1.2 1.2 0 0 0 1.87 1L46.5 37a1.2 1.2 0 0 0 0-2l-14.64-9.75Z"/>
+								</svg>
+							</span>
+
+						</a>
+
+					</div>
+
+					<div class="event__main-content">
+
+						<h2 class="event__title h2">
+		{% if lang === "en" -%}
+							Launch Event of the <b>Grandala</b>
+							<small class="h4">where Home meets Hotel</small>
+		{% elif lang === "ar" %}
+							إطلاق مشروع <b>جراندالا</b>
+							<small class="h4">وحدات سكنية بمواصفات فندقية</small>
+		{% else %}
+							Старт продаж проекта <b>Grandala</b>
+							<small class="h4">апартаментов с отельным сервисом</small>
+		{%- endif %}
+						</h2>
+
+						<p class="event__text">
+		{% if lang === "en" -%}
+							Secure your dream apartment with an early bird fee and exclusive benefits!
+		{% elif lang === "ar" %}
+							اضمن حجز شقة أحلامك برسوم الحجز المبكر والتمتع بمزايا لا مثيل لها!
+		{% else %}
+							Забронируйте квартиру вашей мечты на эксклюзивных условиях за раннее бронирование!
+		{%- endif %}
+						</p>
+
+						<div class="event__btn">
+
+		{% if lang === "en" -%}
+							<button class="btn btn--dark" type="button" data-modal="form" data-title="Book an apartment" data-btn="Send" data-subject="Launch Event of the Grandala">
+								Book an apartment
+							</button>
+		{% elif lang === "ar" %}
+							<button class="btn btn--dark" type="button" data-modal="form" data-title="احجز شقة" data-btn="إرسال" data-subject="إطلاق مشروع جراندال">
+								احجز شقة
+							</button>
+		{% else %}
+							<button class="btn btn--dark" type="button" data-modal="form" data-title="Забронировать апартамент" data-btn="Отправить" data-subject="Старт продаж проекта Grandala">
+								Забронировать апартамент
+							</button>
+		{%- endif %}
+
+						</div>
+
+						<hr>
+
+						<div class="event__full-video-report">
+
+		{% if lang === "en" -%}
+							Full video report from the Launch Event
+		{% elif lang === "ar" %}
+							تقرير بفيديو كامل عن فعالية إطلاق المشروع
+		{% else %}
+							Полный видео-отчет с мероприятия
+		{%- endif %}
+
+							<a href="https://www.youtube.com/watch?v=NJYdPc-Cyd4" target="_blank" data-youtube="NJYdPc-Cyd4" rel="nofollow noopener">
+
+								<svg width="16" height="16" viewBox="0 0 16 16">
+									<path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16ZM6.9 5.13a.32.32 0 0 0-.5.27v5.2a.32.32 0 0 0 .5.27l3.9-2.6a.32.32 0 0 0 0-.54l-3.9-2.6Z"/>
+								</svg>
+
+		{% if lang === "en" -%}
+								Watch video
+		{% elif lang === "ar" %}
+								شاهد الفيديو
+ 		{% else %}
+								Смотреть
+		{%- endif %}
+
+							</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="event__gallery swiper swiper--event">
+
+					<ul class="event__gallery-list swiper-wrapper">
+
+{% for i in [1,2,3,4] %}
+
+						<li class="event__gallery-item event__gallery-item--{{ i }} swiper-slide">
+
+							<picture>
+
+								<source srcset="/img/event/{{ i }}--260x174.webp" type="image/webp" media="(max-width: 727px)">
+								<source srcset="/img/event/{{ i }}--260x174.jpg" media="(max-width: 727px)">
+
+								<source srcset="/img/event/{{ i }}--640x560.webp" type="image/webp" media="(max-width: 1199px)">
+								<source srcset="/img/event/{{ i }}--640x560.jpg" media="(max-width: 1199px)">
+
+								<source srcset="/img/event/{{ i }}--264x234.webp 1x, /img/event/{{ i }}--528x468.webp 2x" type="image/webp">
+								<source srcset="/img/event/{{ i }}--264x234.jpg 1x, /img/event/{{ i }}--528x468.jpg 2x">
+
+								<img src="/img/event/{{ i }}--264x234.jpg" width="264" height="234" alt="" loading="lazy">
+
+							</picture>
+
+						</li>
+
+{% endfor %}
+
+						<li class="event__gallery-item event__gallery-item--5 swiper-slide">
+
+							<picture>
+
+								<source srcset="/img/event/5--260x174.webp" type="image/webp" media="(max-width: 727px)">
+								<source srcset="/img/event/5--260x174.jpg" media="(max-width: 727px)">
+
+								<source srcset="/img/event/5--640x560.webp" type="image/webp" media="(max-width: 1199px)">
+								<source srcset="/img/event/5--640x560.jpg" media="(max-width: 1199px)">
+
+								<source srcset="/img/event/5--528x480.webp 1x, /img/event/5--1056x960.webp 2x" type="image/webp">
+								<source srcset="/img/event/5--528x480.jpg 1x, /img/event/5--1056x960.jpg 2x">
+
+								<img src="/img/event/5--528x480.jpg" width="528" height="480" alt="" loading="lazy">
+
+							</picture>
+
+						</li>
+
+					</ul>
+
+					<span class="swiper-scrollbar"></span>
+
+				</div>
+
+			</div>
+
+		</section>

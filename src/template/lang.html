@@ -1,0 +1,59 @@
+				<div class="lang">
+
+					<button class="lang__btn button" type="button" aria-label="{% if lang === 'en' %}choose a language{% elif lang === 'ar' %}اختر a لغة{% else %}выбрать язык{% endif %}">
+
+						<svg class="lang__btn-ico" width="24" height="24" viewBox="0 0 24 24">
+							<g stroke-width="1.5" fill="none">
+								<path stroke-linecap="round" d="M10.17 2.91C7.28 7.46 7.2 16.2 9.92 21M13.79 2.91c2.89 4.55 2.97 13.29.25 18.08"/>
+								<path d="M21.75 12a9.75 9.75 0 1 0-19.5 0 9.75 9.75 0 0 0 19.5 0Z"/>
+								<path stroke-linecap="round" d="M3.22 12h17.55"/>
+							</g>
+						</svg>
+
+						<svg class="lang__btn-arrow" width="8" height="4" viewBox="0 0 8 4">
+							<path d="M0 4h8L4 0 0 4Z"/>
+						</svg>
+
+					</button>
+
+					<ul class="lang__list">
+
+{% if lang !== "en" -%}
+
+						<li>
+
+							<a href="/">
+								English
+							</a>
+
+						</li>
+
+{%- endif %}
+
+{% if lang !== "ru" -%}
+
+						<li>
+
+							<a href="/ru/">
+								Русский
+							</a>
+
+						</li>
+
+{%- endif %}
+
+{% if lang !== "ar" -%}
+
+						<li>
+
+							<a href="/ar/">
+								عَرَبِيّ
+							</a>
+
+						</li>
+
+{%- endif %}
+
+					</ul>
+
+				</div>
