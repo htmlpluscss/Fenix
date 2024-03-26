@@ -1,8 +1,47 @@
 .first-screen {
 
-	/* height: var(--vh); */
 	position: relative;
-	display: flex;
+
+	&__box {
+
+		/* height: var(--vh); */
+		display: flex;
+		align-items: center;
+
+	}
+
+	&__title {
+
+		margin-bottom: var(--gap);
+
+		b {
+
+			font-weight: inherit;
+
+		}
+
+	}
+
+	&__text {
+
+		margin-bottom: 64px;
+		font-size: 18px;
+		line-height: 32px;
+		max-width: 600px;
+
+	}
+
+	&__btn {
+
+		display: flex;
+
+		.btn {
+
+			min-width: 300px;
+
+		}
+
+	}
 
 	@media $desktop {
 

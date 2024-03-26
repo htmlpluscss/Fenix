@@ -18,103 +18,74 @@
 
 	}
 
+	&__btn {
+
+		min-width: 160px;
+
+		.btn__inner {
+
+			padding: 15px;
+
+		}
+
+	}
+
 }
 
 .menu {
 
 	position: relative;
 
-	&__list {
-
-		position: absolute;
-		top: 100%;
-		right: 0;
-
-	}
-
-}
-
-.lang {
-
-	position: relative;
-
 	@media $mdWidth {
 
-		font-size: 14px;
-		line-height: 20px;
 
 	}
 
 	&__btn {
 
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		text-transform: uppercase;
+		.btn__inner {
 
-		svg {
-
-			stroke: currentColor;
-
-		}
-
-		&-arrow {
-
-			transform: scaleY(-1);
-
-		}
-
-		&.is-open &-arrow {
-
-			transform: scaleY(1);
-
-		}
-
-		&-ico {
-
-			@media $mdWidth {
-
-				.header & {
-
-					width: 20px;
-					height: 20px;
-
-				}
-
-			}
+			padding: 0;
+			width: 54px;
+			height: 54px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 
 		}
 
 	}
 
+	&__open-hidden,
+	&__btn.is-open &__open-visible {
+
+		opacity: 0;
+
+	}
+
+	&__btn.is-open &__open-hidden {
+
+		opacity: 1;
+
+	}
+
 	@media $desktop {
-
-		&:hover &__btn-arrow {
-
-			transform: scaleY(1);
-
-		}
 
 		&:hover &__list {
 
 			display: block;
 
-			&::before {
+		}
 
-				position: absolute;
-				height: 12px;
-				left: 0;
-				right: 0;
-				bottom: 100%;
-				content: '';
+		&:hover &__open-hidden {
 
-				.footer__lang & {
+			opacity: 1;
 
-					bottom: -12px;
+		}
 
-				}
+		&:hover &__open-visible {
 
-			}
+			opacity: 0;
 
 		}
 
@@ -132,70 +103,44 @@
 		top: 100%;
 		margin-top: 10px;
 		right: 0;
-		background-color: var(--milk);
+		z-index: 1;
 		display: none;
+		min-width: 158px;
 
-		html[dir="rtl"] & {
+		&::before {
 
+			position: absolute;
+			height: 16px;
+			top: -10px;
 			left: 0;
-			right: auto;
+			right: 0;
+			content: '';
+
+		}
+
+		ul {
+
+			padding: 15px 0;
 
 		}
 
 		a {
 
-			display: block;
-			padding: 4px 16px;
-			color: var(--darkGray);
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 12px 20px;
+			white-space: nowrap;
+			font-weight: 600;
+			font-family: Montserrat;
 
 			@media $desktop {
 
 				&:hover {
 
-					color: var(--milk);
-					background-color: var(--color);
+					background: rgba(81, 50, 37, 0.4);
 
 				}
-
-			}
-
-		}
-
-	}
-
-}
-
-.location {
-
-	@media $mdWidth {
-
-		font-size: 14px;
-		line-height: 20px;
-
-	}
-
-	@media $smWidth {
-
-		display: none;
-
-	}
-
-	&__current {
-
-		display: flex;
-		align-items: center;
-		gap: 8px;
-
-		svg {
-
-			stroke: currentColor;
-			fill: none;
-
-			@media $mdWidth {
-
-				width: 20px;
-				height: 20px;
-				margin-right: 4px;
 
 			}
 

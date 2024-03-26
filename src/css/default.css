@@ -147,6 +147,21 @@ hr {
 
 }
 
+.border {
+
+	padding: 1px;
+	border-radius: 10px;
+	background-image: var(--linear-gradient);
+
+	&__inner {
+
+		border-radius: 10px;
+		background-color: #181816;
+
+	}
+
+}
+
 /*
 -----------------------------------------------------------------------------*/
 .main {

@@ -4,7 +4,7 @@
 
 		window.addEventListener('click', event => {
 
-			const btn = event.target.closest('.lang__btn');
+			const btn = event.target.closest('.menu__btn');
 
 			if ( btn ) {
 
@@ -20,4 +20,4 @@
 
 	}
 
-})(document.querySelectorAll('.lang__btn'));
+})(document.querySelectorAll('.menu__btn'));

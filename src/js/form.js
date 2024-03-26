@@ -62,14 +62,6 @@
 							document.querySelectorAll('.modal-done__ico svg')[0].classList.toggle('hide', result.status !== 'ok');
 							document.querySelectorAll('.modal-done__ico svg')[1].classList.toggle('hide', result.status === 'ok');
 
-							const eventModalShow = new CustomEvent("modalShow", {
-								detail: {
-									selector: "done"
-								}
-							});
-
-							modal.dispatchEvent(eventModalShow);
-
 							form.reset();
 
 						});

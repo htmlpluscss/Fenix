@@ -1,25 +1,33 @@
 				<nav class="menu">
 
-					<button class="btn btn--dark" type="button" aria-label="open menu">
-						<svg width="24" height="24" viewBox="0 0 24 24">
-							<path fill="silver" d="M3 4h18v2H3V4Zm0 7h18v2H3v-2Zm0 7h18v2H3v-2Z"/>
-							<path fill="silver" d="m12 10.59 4.95-4.95 1.41 1.41L13.41 12l4.95 4.95-1.41 1.41L12 13.41l-4.95 4.95-1.41-1.41L10.59 12 5.64 7.05l1.41-1.41L12 10.59Z"/>
-						</svg>
+					<button class="menu__btn btn btn--dark" type="button" aria-label="open menu">
+
+						<span class="btn__inner">
+							<svg width="24" height="24" viewBox="0 0 24 24">
+								<path class="menu__open-visible" d="M3 4h18v2H3V4Zm0 7h18v2H3v-2Zm0 7h18v2H3v-2Z"/>
+								<path class="menu__open-hidden" d="m12 10.59 4.95-4.95 1.41 1.41L13.41 12l4.95 4.95-1.41 1.41L12 13.41l-4.95 4.95-1.41-1.41L10.59 12 5.64 7.05l1.41-1.41L12 10.59Z"/>
+							</svg>
+						</span>
+
 					</button>
 
-					<ul class="menu__list">
-						<li>
-							<a href="/">Menu 1</a>
-						</li>
-						<li>
-							<a href="/">Menu 1</a>
-						</li>
-						<li>
-							<a href="/">Menu 1</a>
-						</li>
-						<li>
-							<a href="/">Menu 1</a>
-						</li>
-					</ul>
+					<div class="border menu__list">
+
+						<ul class="border__inner">
+							<li>
+								<a href="/">Menu 1</a>
+							</li>
+							<li>
+								<a href="/">Menu 1</a>
+							</li>
+							<li>
+								<a href="/">Menu 1</a>
+							</li>
+							<li>
+								<a href="/">Menu 1</a>
+							</li>
+						</ul>
+
+					</div>
 
 				</nav>
