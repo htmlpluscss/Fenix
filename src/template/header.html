@@ -1,4 +1,4 @@
-	<header class="header{% if headerMod %} header--{{ headerMod }}{% endif %}">
+	<header class="header">
 
 		<div class="center">
 
@@ -6,25 +6,25 @@
 
 				<div class="header__logo">
 
-					<a href="/{% if lang !== 'en' %}{{ lang }}/{% endif %}">
+					<a href="/">
 
-{% include "template/logo.html" %}
+						<img src="/img/logo.svg" width="296" height="32" loading="lazy" alt="">
 
 					</a>
 
 				</div>
 
-				<div class="header__left">
+				<a href="/" class="btn btn--brown">
+					Login
+				</a>
 
-{% include "template/location.html" %}
+				<a href="/" class="btn btn--dark">
+					Contact sales
+				</a>
 
-				</div>
-
-				<div class="header__right">
+{% include "template/menu.html" %}
 
 {% include "template/lang.html" %}
-
-				</div>
 
 			</div>
 

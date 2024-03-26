@@ -4,19 +4,19 @@
 
 {% set preloadImage = [
 	{
-		media : "(min-width: 769px)",
-		img   : "/img/first-screen/1536x1024.webp",
-		imagesrcset : "/img/first-screen/1536x1024.webp 1x, /img/first-screen/3072x2048.webp 2x"
+		media : "(min-width: 1200px)",
+		img   : "/img/first-screen/548x641.webp",
+		imagesrcset : "/img/first-screen/548x641.webp 1x, /img/first-screen/1096x1282.webp 2x"
 	},
 	{
-		media : "(min-width: 361px) and (max-width: 768px)",
-		img   : "/img/first-screen/1456x1990.webp",
-		imagesrcset : "/img/first-screen/1456x1990.webp"
+		media : "(min-width: 768px) and (max-width: 1199px)",
+		img   : "/img/first-screen/850x1000.webp",
+		imagesrcset : "/img/first-screen/850x1000.webp"
 	},
 	{
-		media : "(max-width: 412px)",
-		img   : "/img/first-screen/824x1646.webp",
-		imagesrcset : "/img/first-screen/824x1646.webp"
+		media : "(max-width: 767px)",
+		img   : "/img/first-screen/564x662.webp",
+		imagesrcset : "/img/first-screen/564x662.webp"
 	}
 ] %}
 
@@ -26,18 +26,12 @@
 
 {% include "main/first-screen.html" %}
 
-{% include "main/event.html" %}
+{% include "main/benefits.html" %}
 
-{% include "main/experts.html" %}
+{% include "main/ecosystem.html" %}
 
-{% include "main/tailored-solutions.html" %}
+{% include "main/workflow.html" %}
 
-{% include "main/shop-broker.html" %}
-
-{% include "main/how-work.html" %}
-
-{% include "main/offer.html" %}
-
-{% include "main/crypto.html" %}
+{% include "main/get-started.html" %}
 
 {% endblock %}

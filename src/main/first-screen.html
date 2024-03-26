@@ -4,104 +4,46 @@
 
 				<div class="first-screen__box">
 
-					<div class="first-screen__content fade-in fade-in--left fade-in--tablet-top">
+					<div class="first-screen__content">
 
 						<h1 class="first-screen__title h0">
-							{{ title }}
+							<b>Next Generation</b> Payment Network
 						</h1>
 
 						<p class="first-screen__text">
-							{% if lang === "en" %}
-							Company with a big history, experience <br> in development and investment
-							{% elif lang === "ar" %}
-							شركة ذات تاريخ وخبرة <br> في التطوير العقاري والاستثمار
-							{% else %}
-							Компания с большой историей и опытом в девелопменте недвижимости и&nbsp;инвестициях
-							{% endif %}
+							{{ description }}
 						</p>
+
+						<div class="first-screen__btn">
+
+							<a href="/" class="btn btn--dark">
+								Get started
+							</a>
+
+						</div>
 
 					</div>
 
-					<ul class="first-screen__btns fade-in fade-in--right fade-in--tablet-top">
+					<div class="first-screen__img">
 
-						<li>
+						<picture>
 
-							<a href="#experts">
-							{% if lang === "en" %}
-								Experts
-							{% elif lang === "ar" %}
-								الخبراء
-							{% else %}
-								Эксперты
-							{% endif %}
-							</a>
+							<source srcset="/img/first-screen/564x662.webp" type="image/webp" media="(max-width: 767px)">
+							<source srcset="/img/first-screen/564x662.png" media="(max-width: 767px)">
 
-						</li>
+							<source srcset="/img/first-screen/850x1000.webp" type="image/webp" media="(max-width: 1199px)">
+							<source srcset="/img/first-screen/850x1000.png" media="(max-width: 1199px)">
 
-						<li>
+							<source srcset="/img/first-screen/548x641.webp 1x, /img/first-screen/1096x1282.webp 2x" type="image/webp">
+							<source srcset="/img/first-screen/548x641.png 1x, /img/first-screen/1096x1282.png 2x">
 
-							<a href="#tailored-solutions">
-							{% if lang === "en" %}
-								<span class="hidden-sm">Tailored</span> solutions
-							{% elif lang === "ar" %}
-								الحلول المخصصة
-							{% else %}
-								Решения
-							{% endif %}
-							</a>
+							<img src="/img/first-screen/548x641.png" alt="" loading="lazy" width="548" height="641">
 
-						</li>
+						</picture>
 
-						<li>
-
-							<a href="#invest-now">
-							{% if lang === "en" %}
-								Invest now
-							{% elif lang === "ar" %}
-								استثمر الآن
-							{% else %}
-								Инвестировать
-							{% endif %}
-							</a>
-
-						</li>
-
-						<li>
-
-							<a href="#offer">
-							{% if lang === "en" %}
-								Offer
-							{% elif lang === "ar" %}
-								اعرض مشروعك
-							{% else %}
-								Ваш проект
-							{% endif %}
-							</a>
-
-						</li>
-
-					</ul>
+					</div>
 
 				</div>
-
-			</div>
-
-			<div class="first-screen__img">
-
-				<picture>
-
-					<source srcset="/img/first-screen/824x1646.webp" type="image/webp" media="(max-width: 412px)">
-					<source srcset="/img/first-screen/824x1646.jpg" media="(max-width: 412px)">
-
-					<source srcset="/img/first-screen/1456x1990.webp" type="image/webp" media="(max-width: 728px)">
-					<source srcset="/img/first-screen/1456x1990.jpg" media="(max-width: 728px)">
-
-					<source srcset="/img/first-screen/1536x1024.webp 1x, /img/first-screen/3072x2048.webp 2x" type="image/webp">
-					<source srcset="/img/first-screen/1536x1024.jpg 1x, /img/first-screen/3072x2048.jpg 2x">
-
-					<img src="/img/first-screen/1536x1024.jpg" alt="" loading="lazy" width="1536" height="1024">
-
-				</picture>
 
 			</div>
 
