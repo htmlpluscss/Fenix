@@ -3,4 +3,24 @@
 	margin: var(--margin) 0;
 	scroll-margin: var(--indent);
 
+	&__list {
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 92px;
+		margin: 80px 0;
+
+	}
+
+	&__item {
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 370px;
+		min-height: 100px;
+
+	}
+
 }
