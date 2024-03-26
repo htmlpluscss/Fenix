@@ -19,7 +19,7 @@
 
 			font-weight: inherit;
 			display: block;
-			color: var(--orange);
+			color: #F63;
 
 		}
 
@@ -53,6 +53,19 @@
 		width: 548px;
 		height: 641px;
 
+		&::before {
+
+			position: absolute;
+			width: 487px;
+			height: 397px;
+			left: 16px;
+			top: 244px;
+			content: '';
+			background-color: var(--orange);
+			filter: blur(126px);
+
+		}
+
 	}
 
 	&__back {
@@ -71,7 +84,9 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+		box-shadow: -152px -84px 169px rgba(0, 0, 0, 0.8);
 		border-radius: 30px;
+		backdrop-filter: blur(9px);
 
 	}
 
