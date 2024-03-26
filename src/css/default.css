@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 
-	color: red !important
+	/* color: red !important */
 
 }
 
@@ -39,7 +39,7 @@ body {
 	flex-direction: column;
 	position: relative;
 	background-color: var(--bg);
-background-image: url(/css/1.png);
+/* background-image: url(/css/1.png); */
 background-position: top;
 }
 
@@ -145,6 +145,7 @@ hr {
 	font-weight: 500;
 	line-height: 32px;
 	margin: 10px 0;
+	opacity: .6;
 
 }
 
