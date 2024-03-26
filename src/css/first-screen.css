@@ -83,7 +83,7 @@
 		top: 0;
 		right: 0;
 		background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(200deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
-		box-shadow: -152.728px -84.8489px 169.698px rgba(0, 0, 0, 0.8);
+		box-shadow: -152px -84px 169px rgba(0, 0, 0, 0.8);
 		border-radius: 30px;
 
 	}
