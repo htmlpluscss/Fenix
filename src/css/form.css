@@ -60,6 +60,7 @@
 
 			&:hover {
 
+				--bgBorder: var(--brown);
 
 			}
 
@@ -76,6 +77,7 @@
 
 			&:hover {
 
+				--brown: var(--bgBorder);
 
 			}
 

@@ -10,9 +10,11 @@
 
 	--error: #BB5252;
 
-	--border: linear-gradient(200deg, rgba(153, 153, 153, 0.7), rgba(20, 20, 20, 0.7));
+	--deg: 200deg;
 
-	--linear-gradient: linear-gradient(200deg, var(--grey), #141414);
+	--border: linear-gradient(var(--deg), rgba(153, 153, 153, 0.7), rgba(20, 20, 20, 0.7));
+
+	--linear-gradient: linear-gradient(var(--deg), var(--grey), #141414);
 	--transitionDefault: 0s;
 
 	--margin: 150px;
