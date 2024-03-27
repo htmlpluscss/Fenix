@@ -3,11 +3,6 @@
 	flex-shrink: 0;
 	border-top: 1px solid #262626;
 
-	@media $smWidth {
-
-
-	}
-
 	&__grid {
 
 		display: grid;
@@ -28,9 +23,8 @@
 
 		@media $smWidth {
 
-			display: flex;
-			flex-direction: column;
-			gap: 0;
+			display: block;
+			margin: var(--margin) 0;
 
 		}
 
@@ -46,11 +40,17 @@
 
 		grid-area: social;
 
-		@media $mdWidth {
+		@media $tablet {
 
 			display: flex;
 			justify-content: flex-end;
 			align-items: center;
+
+		}
+
+		@media $smWidth {
+
+			margin: 32px 0;
 
 		}
 
@@ -80,6 +80,13 @@
 		display: flex;
 		justify-content: space-between;
 
+		@media $smWidth {
+
+			display: block;
+			margin: 48px 0;
+
+		}
+
 	}
 
 	&__copyright {
@@ -93,6 +100,12 @@
 	}
 
 	&__menu {
+
+		@media $smWidth {
+
+			margin: 32px 0;
+
+		}
 
 		p {
 
@@ -126,7 +139,12 @@
 		&--ico li {
 
 			padding-left: 34px;
-			width: 325px;
+
+			@media $desktop {
+
+				width: 325px;
+
+			}
 
 			svg {
 

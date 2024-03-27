@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 
-	color: red !important
+	/* color: red !important */
 
 }
 
@@ -40,7 +40,7 @@ body {
 	position: relative;
 	background-color: var(--bg);
 
-background-image: url(/css/1.png);
+/*background-image: url(/css/1.png);*/
 background-position: top;
 }
 
@@ -106,6 +106,13 @@ hr {
 
 	}
 
+	@media $smWidth {
+
+		font-size: 34px;
+		line-height: 40px;
+
+	}
+
 }
 
 .h1 {
@@ -124,6 +131,8 @@ hr {
 
 	@media $smWidth {
 
+		font-size: 28px;
+		line-height: 32px;
 
 	}
 
@@ -144,6 +153,7 @@ hr {
 
 	@media $smWidth {
 
+		font-size: 24px;
 
 	}
 
@@ -161,6 +171,13 @@ hr {
 	@media $mdWidth {
 
 		font-size: 18px;
+
+	}
+
+	@media $smWidth {
+
+		font-size: 16px;
+		line-height: 24px;
 
 	}
 

@@ -55,6 +55,9 @@
 
 	:root {
 
+		--margin: 80px;
+		--space: 40px;
+		--indent: 20px;
 
 	}
 
@@ -83,6 +86,7 @@
 
 	:root {
 
+		--indent: 10px;
 
 	}
 

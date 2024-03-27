@@ -17,6 +17,12 @@
 
 		}
 
+		@media $smWidth {
+
+			gap: 0;
+
+		}
+
 	}
 
 	&__item {
@@ -38,7 +44,7 @@
 
 		}
 
-		@media $mdWidth {
+		@media $tablet {
 
 			flex-basis: calc( ( 100% - 20px ) / 3 );
 
@@ -47,6 +53,19 @@
 				max-width: 70%;
 				max-height: 70px;
 				object-fit: contain;
+
+			}
+
+		}
+
+		@media $smWidth {
+
+			flex-basis: 50%;
+
+			img {
+
+				width: auto;
+				height: auto;
 
 			}
 

@@ -2,6 +2,8 @@
 
 	flex-shrink: 0;
 	margin: 72px 0;
+	position: relative;
+	z-index: 1;
 
 	@media $mdWidth {
 
@@ -9,10 +11,16 @@
 
 		.center {
 
-			padding: 0 50px;
 			width: 100%;
 
 		}
+
+	}
+
+	@media $smWidth {
+
+		margin: 0;
+		padding: var(--indent) 0;
 
 	}
 
@@ -29,11 +37,19 @@
 
 		}
 
+		@media $smWidth {
+
+			gap: 12px;
+
+		}
+
 	}
 
 	&__logo {
 
 		flex-grow: 1;
+		position: relative;
+		z-index: 2;
 
 		@media $mdWidth {
 
@@ -74,6 +90,12 @@
 
 		}
 
+		@media $smWidth {
+
+			display: none;
+
+		}
+
 	}
 
 }
@@ -82,7 +104,16 @@
 
 	position: relative;
 
+	@media $smWidth {
+
+		position: static;
+
+	}
+
 	&__btn {
+
+		z-index: 2;
+		position: relative;
 
 		.btn__inner {
 
@@ -170,9 +201,24 @@
 		top: 100%;
 		margin-top: 10px;
 		right: 0;
-		z-index: 1;
 		display: none;
 		min-width: 158px;
+
+		@media $smWidth {
+
+			margin: 0;
+			top: 0;
+			left: 0;
+			border-radius: 0;
+			padding: 0;
+
+			ul {
+
+				padding: 118px 0 36px;
+
+			}
+
+		}
 
 		&::before {
 
@@ -210,6 +256,44 @@
 				}
 
 			}
+
+		}
+
+	}
+
+}
+
+@media $smWidth {
+
+	body.is-open-menu {
+
+		.main {
+
+			position: absolute;
+			top: calc( var(--indent) * 2 + 40px );
+			left: 0;
+			right: 0;
+			bottom: 0;
+			overflow: hidden;
+
+			&::after {
+
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				content: '';
+				backdrop-filter: blur(12px);
+				background-color: rgba(52, 38, 33, 0.4);
+
+			}
+
+		}
+
+		.footer {
+
+			display: none;
 
 		}
 

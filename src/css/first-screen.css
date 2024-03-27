@@ -26,6 +26,12 @@
 
 		}
 
+		@media $smWidth {
+
+			margin: 44px 0;
+
+		}
+
 	}
 
 	&__title {
@@ -61,6 +67,14 @@
 
 		}
 
+		@media $smWidth {
+
+			font-size: 14px;
+			line-height: 24px;
+			margin-bottom: 40px;
+
+		}
+
 	}
 
 	&__btn {
@@ -81,6 +95,16 @@
 			.btn {
 
 				min-width: 350px;
+
+			}
+
+		}
+
+		@media $smWidth {
+
+			.btn {
+
+				min-width: 100%;
 
 			}
 
@@ -129,6 +153,30 @@
 
 		}
 
+		@media $smWidth {
+
+			height: 331px;
+			margin: 20px 0;
+
+			&::before {
+
+				width: 322px;
+				height: 178px;
+
+			}
+
+		}
+
+		@media $xsWidth {
+
+			&::before {
+
+				width: 280px;
+
+			}
+
+		}
+
 	}
 
 	&__back {
@@ -168,6 +216,17 @@
 				width: 425px;
 				height: 500px;
 				object-fit: contain;
+
+			}
+
+		}
+
+		@media $smWidth {
+
+			img {
+
+				width: 282px;
+				height: 331px;
 
 			}
 

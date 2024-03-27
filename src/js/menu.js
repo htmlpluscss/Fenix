@@ -8,6 +8,8 @@
 
 			[...btns].forEach( _btn => _btn.classList.toggle('is-open', btn !== null && _btn === btn ));
 
+			document.body.classList.toggle('is-open-menu', [...btns].some( btn => btn.classList.contains('is-open') ) );
+
 		});
 
 	}

@@ -54,6 +54,21 @@
 
 		}
 
+		@media $smWidth {
+
+			padding: 32px var(--indent);
+
+			&::before {
+
+				height: 120px;
+				left: -76px;
+				right: -76px;
+				margin-top: 20px;
+
+			}
+
+		}
+
 	}
 
 	&__bg {
@@ -83,6 +98,12 @@
 
 			text-align: center;
 			margin-bottom: 28px;
+
+		}
+
+		@media $smWidth {
+
+			margin-bottom: 24px;
 
 		}
 
