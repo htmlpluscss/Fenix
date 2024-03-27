@@ -1,16 +1,9 @@
 .footer {
 
 	flex-shrink: 0;
-	padding: var(--space) 0;
 	border-top: 1px solid #262626;
 
-	@media $mdWidth {
-
-
-	}
-
 	@media $smWidth {
-
 
 
 	}
@@ -23,12 +16,13 @@
 		grid-template-areas: "logo nav" "social nav";
 		grid-template-rows: auto 1fr;
 		gap: 72px var(--gap);
+		margin: var(--space) 0;
 
 		@media $mdWidth {
 
-			grid-template-columns: 210px 1fr 210px;
-			grid-template-areas: "time time time" "contact address address" "copyright copyright copyright" "rules rules rules";
-			gap: 20px var(--gap);
+			grid-template-columns: 1fr 325px;
+			grid-template-areas: "logo social" "nav nav";
+			gap: 72px 0;
 
 		}
 
@@ -51,6 +45,14 @@
 	&__social {
 
 		grid-area: social;
+
+		@media $mdWidth {
+
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+
+		}
 
 		ul {
 
@@ -87,7 +89,6 @@
 		text-align: center;
 		padding: 30px 0;
 		border-top: 1px solid #262626;
-		margin: 70px 0;
 
 	}
 
@@ -107,7 +108,7 @@
 		li {
 
 			line-height: 28.8px;
-			margin: 10px 0;
+			margin-top: 10px;
 			color: #999;
 
 			@media $desktop {

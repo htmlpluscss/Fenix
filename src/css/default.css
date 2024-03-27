@@ -136,6 +136,12 @@ hr {
 	font-weight: 500;
 	line-height: 56px;
 
+	@media $mdWidth {
+
+		font-size: 40px;
+
+	}
+
 	@media $smWidth {
 
 

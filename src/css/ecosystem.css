@@ -11,6 +11,12 @@
 		gap: 92px 0;
 		margin: var(--space) 0;
 
+		@media $mdWidth {
+
+			gap: 10px;
+
+		}
+
 	}
 
 	&__item {
@@ -18,8 +24,33 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 370px;
 		min-height: 100px;
+
+		img {
+
+			margin: auto;
+
+		}
+
+		@media $desktop {
+
+			width: 370px;
+
+		}
+
+		@media $mdWidth {
+
+			flex-basis: calc( ( 100% - 20px ) / 3 );
+
+			img {
+
+				max-width: 70%;
+				max-height: 70px;
+				object-fit: contain;
+
+			}
+
+		}
 
 	}
 

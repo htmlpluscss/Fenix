@@ -12,6 +12,24 @@
 		margin: var(--space) 0;
 		counter-reset: headings 0;
 
+		@media $mdWidth {
+
+			gap: 60px 40px;
+
+			li {
+
+				flex-basis: calc( 50% - 20px );
+
+				&::before {
+
+					font-size: 40px
+
+				}
+
+			}
+
+		}
+
 		li {
 
 			counter-increment: headings 1;
@@ -26,7 +44,7 @@
 				font-family: Montserrat;
 				font-size: 48px;
 				font-weight: 600;
-				line-height: 48px;
+				line-height: 1;
 				margin-bottom: 20px;
 
 			}

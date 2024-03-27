@@ -8,7 +8,12 @@
 		box-shadow: -2.6px -1.6px 4.24px 0 rgba(250, 250, 250, 0.22) inset;
 		position: relative;
 		border-radius: 30px;
-		margin: 16px;
+
+		@media $desktop {
+
+			margin: 16px;
+
+		}
 
 	}
 
@@ -33,6 +38,22 @@
 
 		}
 
+		@media $mdWidth {
+
+			padding: 68px;
+
+			&::before {
+
+				height: 62px;
+				top: 100%;
+				left: 0;
+				right: 0;
+				margin: auto;
+
+			}
+
+		}
+
 	}
 
 	&__bg {
@@ -45,6 +66,12 @@
 		height: auto;
 		z-index: 1;
 
+		@media $mdWidth {
+
+			display: none;
+
+		}
+
 	}
 
 	&__title {
@@ -52,16 +79,32 @@
 		color: #C4BE9F;
 		margin-bottom: 60px;
 
+		@media $mdWidth {
+
+			text-align: center;
+			margin-bottom: 28px;
+
+		}
+
 	}
 
 	&__btn {
 
-		display: flex;
-
 		.btn {
 
-			min-width: 260px;
 			font-weight: 500;
+
+		}
+
+		@media $desktop {
+
+			display: flex;
+
+			.btn {
+
+				min-width: 260px;
+
+			}
 
 		}
 
