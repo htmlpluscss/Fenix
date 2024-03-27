@@ -5,15 +5,38 @@
 	&__box {
 
 		/* height: var(--vh); */
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+
+		@media $desktop {
+
+			display: flex;
+			align-items: center;
+			flex-direction: row-reverse;
+			justify-content: space-between;
+
+		}
+
+	}
+
+	&__content {
+
+		@media $mdWidth {
+
+			text-align: center;
+			margin: 64px 0;
+
+		}
 
 	}
 
 	&__title {
 
 		margin-bottom: var(--gap);
+
+		@media $mdWidth {
+
+			margin-bottom: 16px;
+
+		}
 
 		b {
 
@@ -32,6 +55,12 @@
 		line-height: 32px;
 		max-width: 600px;
 
+		@media $mdWidth {
+
+			margin: 0 auto 48px;
+
+		}
+
 	}
 
 	&__btn {
@@ -42,6 +71,18 @@
 
 			min-width: 300px;
 			font-weight: 500;
+
+		}
+
+		@media $mdWidth {
+
+			justify-content: center;
+
+			.btn {
+
+				min-width: 350px;
+
+			}
 
 		}
 
@@ -66,6 +107,28 @@
 
 		}
 
+		@media $mdWidth {
+
+			width: auto;
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			margin: 40px 0;
+
+			&::before {
+
+				width: 487px;
+				height: 268px;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+
+			}
+
+		}
+
 	}
 
 	&__back {
@@ -77,24 +140,39 @@
 		display: flex;
 		align-items: center;
 
+		@media $mdWidth {
+
+			display: none;
+
+		}
+
 	}
 
 	&__front {
 
-		position: absolute;
-		top: 0;
-		right: 0;
-		box-shadow: -152px -84px 169px rgba(0, 0, 0, 0.8);
-		border-radius: 30px;
-		backdrop-filter: blur(9px);
+		@media $desktop {
+
+			position: absolute;
+			top: 0;
+			right: 0;
+			box-shadow: -152px -84px 169px rgba(0, 0, 0, 0.8);
+			border-radius: 30px;
+			backdrop-filter: blur(9px);
+
+		}
+
+		@media $mdWidth {
+
+			img {
+
+				width: 425px;
+				height: 500px;
+				object-fit: contain;
+
+			}
+
+		}
 
 	}
-
-	@media $desktop {
-
-
-
-	}
-
 
 }

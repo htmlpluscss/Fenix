@@ -8,15 +8,15 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		gap: 60px;
-		margin: 80px 0;
+		gap: 60px var(--gap);
+		margin: var(--space) 0;
 		counter-reset: headings 0;
 
 		li {
 
 			counter-increment: headings 1;
 			color: rgba(229, 229, 229, 0.8);
-			width: 350px;
+			flex-basis: 350px;
 
 			&::before {
 
