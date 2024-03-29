@@ -8,6 +8,255 @@
 
 {% block content %}
 
-form
+	<div class="center">
+
+		<div class="form-page form-status">
+
+			<div class="form-page__box">
+
+				<div class="form-page__form">
+
+					<p class="form-page__before before">
+						Get started with Fenilux
+					</p>
+
+					<h1 class="form-page__title h3">
+						Contact Sales
+					</h1>
+
+					<form action="/" class="form">
+
+						<div class="form__row form__column">
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									First name
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="first-name">
+
+								</span>
+
+							</label>
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Last Name
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="last-name">
+
+								</span>
+
+							</label>
+
+						</div>
+
+						<div class="form__row form__column">
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Company name
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="company-name">
+
+								</span>
+
+							</label>
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Work email
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="work-email" type="email">
+
+								</span>
+
+							</label>
+
+						</div>
+
+						<div class="form__row form__column">
+
+							<div class="form__inputbox">
+
+								<span class="form__label">
+									Country
+								</span>
+
+								<div class="select">
+
+									<select name="country">
+
+										<option value="">Выбрать</option>
+
+										{% include "main/country.html" %}
+
+									</select>
+
+								</div>
+
+							</div>
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Phone
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="phone" type="tel">
+
+								</span>
+
+							</label>
+
+						</div>
+
+						<div class="form__row">
+
+							<div class="form__inputbox">
+
+								<span class="form__label">
+									What is your annual range?
+								</span>
+
+								<div class="select">
+
+									<select name="country">
+
+										<option value="">Выбрать</option>
+										<option value="Choose from a selection of">Choose from a selection of</option>
+
+									</select>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="form__checkbox">
+
+							<label class="checkbox">
+
+								<input type="checkbox" class="checkbox__input" required="required">
+
+								<span class="checkbox__label">
+									I have read the <a href="/terms-and-conditions/" target="_blank">Terms of Service</a> and <a href="/privacy-police/" target="_blank">Privacy Policy</a>
+								</span>
+
+							</label>
+
+						</div>
+
+						<button class="btn btn--brown form__submit">
+							<span class="btn__inner">
+								Submit
+							</span>
+						</button>
+
+						<p class="form__after">
+							Have an account? <a href="/sign-in/">Sign in</a>
+						</p>
+
+					</form>
+
+				</div>
+
+				<hr class="form-page__sep">
+
+				<div class="form-page__info border">
+
+					<div class="border__inner">
+
+						<h2 class="form-page__heading h4">
+							Getting started with Fenilux <br>
+							is quick and easy.
+						</h2>
+
+						<p class="form-page__text">
+							New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.
+						</p>
+
+						<ol class="form-page__list">
+
+							<li>
+								Tell us about your business
+								<small>
+									The basics about your business and what you do.
+								</small>
+							</li>
+
+							<li>
+								Your payment processing needs
+								<small>
+									How you plan to use Helcim — and the tax stuff.
+								</small>
+							</li>
+
+							<li>
+								A little bit about you
+							</li>
+
+						</ol>
+
+						<p class="form-page__text">
+							If you are an existing customer looking for support, please submit a support ticket or call <a href="tel:+554841040770">+55 (48) 4104.0770</a>
+						</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<aside class="form-page-done">
+
+				<div class="form-page-done__inner">
+
+					<div class="form-page-done__ico">
+
+						<svg width="56" height="56" viewBox="0 0 56 56">
+							<path d="M24.25 33.82 40.5 17l2.5 2.59L24.25 39 13 27.35l2.5-2.59 8.75 9.06Z"/>
+						</svg>
+
+					</div>
+
+					<p class="form-page-done__title h2">
+						Thank You <br>
+						for Choosing Fenilux!
+					</p>
+
+					<p class="form-page-done__text">
+						We sincerely appreciate your interest in our services. Rest assured that your message has been received, and our dedicated sales manager will promptly attend to your request. Should you have any further questions or require immediate assistance, please do not hesitate to reach out to us.
+					</p>
+
+					<a href="/" class="form-page-done__btn btn btn--brown">
+						<span class="btn__inner">Back to the Home Page</span>
+					</a>
+
+				</div>
+
+			</aside>
+
+		</div>
+
+	</div>
 
 {% endblock %}

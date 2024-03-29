@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 
-	/* color: red !important */
+	 /* color: red !important */
 
 }
 
@@ -154,6 +154,38 @@ hr {
 	@media $smWidth {
 
 		font-size: 24px;
+
+	}
+
+}
+
+.h3 {
+
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 56px;
+
+	@media $smWidth {
+
+		font-size: 32px;
+		line-height: 40px;
+
+	}
+
+}
+
+.h4 {
+
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 40px;
+
+	@media $smWidth {
+
+		font-size: 24px;
+		line-height: 32px;
 
 	}
 

@@ -1,76 +1,36 @@
 ( forms => {
 
-	//reCaptcha v3
-
-	const PUBLIC_KEY = '6LcMlS8lAAAAAJgCJggfIyKopNr4NYq8CSS0dEZz';
-
-	const reCaptcha = () => {
-
-		[...forms].forEach( form => {
-
-			form.removeEventListener('input', reCaptcha);
-
-		});
-
-		const script = document.createElement('script');
-
-		script.src = 'https://www.google.com/recaptcha/api.js?render=' + PUBLIC_KEY;
-
-		document.head.appendChild(script);
-
-	}
-
 	[...forms].forEach( form => {
 
-		form.addEventListener('input', reCaptcha);
+		const formStatus = form.closest('.form-status');
 
 		form.addEventListener('submit', event => {
 
 			event.preventDefault();
 
-			if (typeof(grecaptcha) === 'undefined') {
+			const formData = new FormData(form),
+				  formDataJSON = {},
+				  btn = form.querySelector('.form__submit');
 
-				alert('Error! Google reCaptcha');
+			formData.forEach( (value, key) => formDataJSON[key] = value );
 
-			} else {
+			btn.disabled = true;
 
-				grecaptcha.ready( () => {
+			fetch(form.getAttribute('action'), {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(formDataJSON)
+			})
+			.then(response => response.json())
+			.then(result => {
 
-					grecaptcha.execute(PUBLIC_KEY).then( token => {
+				console.log(result);
 
-						const formData = new FormData(form),
-							  btn = form.querySelector('.form__submit');
+				formStatus && formStatus.classList.add('is-done');
 
-						formData.append('recaptcha_response', token);
-
-						btn.disabled = true;
-
-						fetch(form.getAttribute('action'), {
-							method: 'POST',
-							body: formData
-						})
-						.then(response => response.json())
-						.then(result => {
-
-							console.log(result);
-
-							btn.disabled = false;
-
-							document.querySelector('.modal-done__title').innerHTML = result.title;
-							document.querySelector('.modal-done__message').innerHTML = result.message;
-
-							document.querySelectorAll('.modal-done__ico svg')[0].classList.toggle('hide', result.status !== 'ok');
-							document.querySelectorAll('.modal-done__ico svg')[1].classList.toggle('hide', result.status === 'ok');
-
-							form.reset();
-
-						});
-
-					});
-
-				});
-
-			}
+			});
 
 		});
 

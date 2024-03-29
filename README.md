@@ -1,5 +1,5 @@
 # Fenix
-[build](https://fenix.com)
+[build](https://fenilux.io)
 
 ## support browsers:
 **Android >= 5**

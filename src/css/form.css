@@ -40,10 +40,9 @@
 
 	padding: 1px;
 	border-radius: 10px;
-	background-image: linear-gradient(var(--deg), var(--grey), #141414);;
+	background-image: linear-gradient(var(--deg), var(--grey), #141414);
 	font: 600 16px/24px 'Montserrat';
 	color: var(--color);
-
 
 	&__inner {
 
@@ -88,11 +87,12 @@
 
 }
 
+
+
 .input {
 
 	padding: 15px 19px;
 	color: currentColor;
-	font: 500 16px/24px 'Montserrat';
 
 	width: 100%;
 	font-family: inherit;
@@ -102,9 +102,27 @@
 	filter: none;
 	-webkit-transform: translateZ(0px);
 
-	background-color: transparent;
-	border: 1px solid var(--border);
+	border: 0;
 	border-radius: 10px;
+	background-color: var(--bg);
+	font: 500 16px/24px 'Montserrat';
+
+	&-wrap {
+
+		position: relative;
+		display: block;
+
+		padding: 1px;
+		border-radius: 10px;
+		background-image: linear-gradient(var(--deg), var(--grey), #141414);
+
+		&.is-error {
+
+			background: var(--error);
+
+		}
+
+	}
 
 	&::placeholder {
 
@@ -121,7 +139,6 @@
 	&:focus {
 
 		outline: none;
-		--border: var(--linear-gradient);
 
 	}
 
@@ -149,33 +166,20 @@
 	&__input {
 
 		position: absolute;
-		width: 20px;
-		height: 20px;
-		top: 0;
+		width: 16px;
+		height: 16px;
+		top: 4px;
 		left: 0;
 		appearance: none;
 		opacity: .0001;
-
-		html[dir="rtl"] & {
-
-			&::before {
-
-				right: 0;
-				left: auto;
-
-			}
-
-		}
 
 	}
 
 	&__input:checked + &__label {
 
-		&::before {
+		&::after {
 
-			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='%23F9F5E9' d='M6.67 10.11 12.79 4l.95.94L6.67 12 2.42 7.76l.95-.95 3.3 3.3Z'/%3E%3C/svg%3E");
-			background-color: var(--color);
-			border-color: var(--color);
+			opacity: 1;
 
 		}
 
@@ -184,38 +188,12 @@
 	&__label {
 
 		display: block;
-		padding-left: 36px;
+		padding-left: 26px;
 		cursor: pointer;
-		font-size: 14px;
-		line-height: 20px;
-		color: var(--grey);
-		background-position: center;
-		background-repeat: no-repeat;
-		transition: var(--transitionDefault);
-
-		html[dir="rtl"] & {
-
-			padding-left: 0;
-			padding-right: 32px;
-
-			&::before {
-
-				right: 0;
-				left: auto;
-
-			}
-
-		}
-
-		@media $smWidth {
-
-			font-size: 12px;
-
-		}
+		font: 500 12px/24px Montserrat;
 
 		a {
 
-			color: var(--color);
 			text-decoration: underline;
 
 			@media $desktop {
@@ -230,16 +208,26 @@
 
 		}
 
+		&::after,
 		&::before {
 
 			position: absolute;
-			width: 18px;
-			height: 18px;
-			top: 0;
+			width: 16px;
+			height: 16px;
+			top: 4px;
 			left: 0;
 			content: '';
-			border: 1px solid;
+			border-radius: 4px;
 			background-position: center;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3E%3Crect width='15' height='15' x='.5' y='.5' stroke='url(%23a)' rx='3.5'/%3E%3Cdefs%3E%3ClinearGradient id='a' x1='16' x2='8.69' y1='0' y2='19.29' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23999'/%3E%3Cstop offset='1' stop-color='%23141414'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+
+		}
+
+		&::after {
+
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' viewBox='0 0 20 20'%3E%3Cpath fill='%23e5e5e5' fill-rule='evenodd' d='M16.7 5.3a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4L8 12.58l7.3-7.3a1 1 0 0 1 1.4 0Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+			opacity: 0;
+			transition: var(--transitionDefault);
 
 		}
 
@@ -259,33 +247,82 @@
 
 .form {
 
-	&__title {
+	&__row {
 
-		text-align: center;
-
-	}
-
-	&__fieldset {
-
-		margin: 30px 0;
+		margin: 15px 0;
 
 	}
 
-	&__inputbox {
+	&__column {
 
-		margin: 20px 0;
+		display: flex;
+		gap: 24px;
+
+		@media $smWidth {
+
+			display: block;
+
+		}
+
+	}
+
+	&__column &__inputbox {
+
+		width: calc( 50% - 12px );
+		display: block;
+
+		@media $smWidth {
+
+			width: auto;
+			margin: 10px 0;
+
+		}
+
+	}
+
+	&__label {
+
+		display: block;
+		font: 500 12px/24px Montserrat;
+		opacity: .6;
+		margin-bottom: 8px;
 
 	}
 
 	&__checkbox {
 
-		margin: 36px 0;
+		margin: 18px 0 16px;
 
 	}
 
 	&__submit {
 
 		width: 100%;
+
+	}
+
+	&__after {
+
+		margin-top: 24px;
+		font: 500 12px/24px Montserrat;
+
+		a {
+
+			color: var(--orange);
+			font-weight: 700;
+
+		}
+
+	}
+
+	&__text-errot {
+
+		font-family: Montserrat;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 24px;
+		color: var(--error);
+		margin: 4px 0;
 
 	}
 

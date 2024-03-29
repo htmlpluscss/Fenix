@@ -38,7 +38,7 @@ const debug            = require('gulp-debug');
 const w3cjs            = require('gulp-w3cjs');
 
 const site             = 'Fenix';
-const domain           = 'fenix.ae';
+const domain           = 'fenilux.io';
 
 const html = (files, since = {}, folder = '') => {
 

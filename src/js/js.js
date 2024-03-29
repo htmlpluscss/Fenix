@@ -16,6 +16,8 @@ https://github.com/htmlpluscss/
 
 	});
 
+	// anim btn
+
 	const anim = ( btn, deg, spin = 1 ) => {
 
 		deg = spin > 0 ? deg + 1 : deg - 3;
@@ -45,6 +47,24 @@ https://github.com/htmlpluscss/
 		btn.addEventListener('mouseleave', ()=>{
 
 			anim(btn,175);
+
+		});
+
+	});
+
+	[...document.querySelectorAll('.input-wrap')].forEach( wrap => {
+
+		const input = wrap.querySelector('.input');
+
+		input.addEventListener('focus', ()=>{
+
+			anim(wrap,200,-1);
+
+		});
+
+		input.addEventListener('blur', ()=>{
+
+			anim(wrap,175);
 
 		});
 
