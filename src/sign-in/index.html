@@ -8,6 +8,130 @@
 
 {% block content %}
 
-form
+	<div class="center">
+
+		<div class="form-page">
+
+			<div class="form-page__box">
+
+				<div class="form-page__form">
+
+					<p class="form-page__before before">
+						Next Generation Payment Network
+					</p>
+
+					<h1 class="form-page__title h3">
+						Sign in to your account
+					</h1>
+
+					<form action="/" class="form">
+
+						<div class="form__row">
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Email
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="email" type="email" required="required">
+
+								</span>
+
+							</label>
+
+						</div>
+
+						<div class="form__row">
+
+							<div class="form__inputbox">
+
+								<span class="form__label">
+									Password
+								</span>
+
+								<a href="/forgot-password/" class="form__forgot-password">
+									Forgotten password?
+								</a>
+
+								<span class="input-wrap input-wrap-password">
+
+									<input class="input-wrap-password__input input" name="password" type="password" required="required">
+
+									<button class="input-wrap-password__btn button" type="button" aria-label="toggle visible password">
+
+										<svg width="24" height="24" viewBox="0 0 24 24">
+
+											<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+												<path class="input-wrap-password__ico-off" d="m3 3 3.59 3.59M21 21l-3.59-3.59m-3.54 1.41A10 10 0 0 1 2.45 12c.36-1.1.89-2.13 1.57-3.03m5.86.9A3 3 0 0 1 15 12a3 3 0 0 1-.88 2.12M9.88 9.88l4.24 4.24M9.88 9.88l-3.3-3.3m7.54 7.54L6.6 6.6m7.53 7.53 3.3 3.3M6.58 6.58A10 10 0 0 1 21.54 12a10.02 10.02 0 0 1-4.13 5.41"/>
+												<g class="input-wrap-password__ico-on">
+													<path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+													<path d="M2.46 12a10 10 0 0 1 19.08 0 10 10 0 0 1-19.08 0Z"/>
+												</g>
+											</g>
+
+										</svg>
+
+									</button>
+
+								</span>
+
+							</div>
+
+						</div>
+
+						<button class="btn btn--brown form__submit">
+							<span class="btn__inner">
+								Sign in
+							</span>
+						</button>
+
+						<p class="form__after">
+							You don't have an account? <a href="/sign-up/">Contact us</a>
+						</p>
+
+					</form>
+
+				</div>
+
+				<hr class="form-page__sep">
+
+				<div class="form-page__img">
+
+					<div class="form-page__back">
+
+						<picture>
+
+							<source srcset="/img/first-screen/front.webp 1x, /img/first-screen/front@2x.webp 2x" type="image/webp">
+							<source srcset="/img/first-screen/front.png 1x, /img/first-screen/front@2x.png 2x">
+
+							<img src="/img/first-screen/front.png" alt="" loading="lazy" width="507" height="500">
+
+						</picture>
+
+					</div>
+
+					<div class="form-page__front">
+
+						<picture>
+
+							<source srcset="/img/form-page/340x405.webp 1x, /img/form-page/608x810.webp 2x" type="image/webp">
+							<source srcset="/img/form-page/340x405.png 1x, /img/form-page/608x810.png 2x">
+
+							<img src="/img/form-page/340x405.png" alt="" loading="lazy" width="340" height="405">
+
+						</picture>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
 
 {% endblock %}

@@ -8,6 +8,92 @@
 
 {% block content %}
 
-form
+	<div class="center">
+
+		<div class="form-page">
+
+			<div class="form-page__box">
+
+				<div class="form-page__form">
+
+					<p class="form-page__before before">
+						Please enter your email below.
+					</p>
+
+					<h1 class="form-page__title h3">
+						Forgot Password
+					</h1>
+
+					<form action="/" class="form">
+
+						<div class="form__row">
+
+							<label class="form__inputbox">
+
+								<span class="form__label">
+									Email
+								</span>
+
+								<span class="input-wrap">
+
+									<input class="input" name="email" type="email" required="required">
+
+								</span>
+
+							</label>
+
+						</div>
+
+						<button class="btn btn--brown form__submit">
+							<span class="btn__inner">
+								Submit
+							</span>
+						</button>
+
+						<p class="form__after">
+							Remembered the password? <a href="/sign-in/">Back to Login</a>
+						</p>
+
+					</form>
+
+				</div>
+
+				<hr class="form-page__sep">
+
+				<div class="form-page__img">
+
+					<div class="form-page__back">
+
+						<picture>
+
+							<source srcset="/img/first-screen/front.webp 1x, /img/first-screen/front@2x.webp 2x" type="image/webp">
+							<source srcset="/img/first-screen/front.png 1x, /img/first-screen/front@2x.png 2x">
+
+							<img src="/img/first-screen/front.png" alt="" loading="lazy" width="507" height="500">
+
+						</picture>
+
+					</div>
+
+					<div class="form-page__front">
+
+						<picture>
+
+							<source srcset="/img/form-page/340x405.webp 1x, /img/form-page/608x810.webp 2x" type="image/webp">
+							<source srcset="/img/form-page/340x405.png 1x, /img/form-page/608x810.png 2x">
+
+							<img src="/img/form-page/340x405.png" alt="" loading="lazy" width="340" height="405">
+
+						</picture>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
 
 {% endblock %}

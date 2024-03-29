@@ -37,3 +37,20 @@
 	});
 
 })(document.querySelectorAll('.form'));
+
+( passwords => {
+
+	[...passwords].forEach( password => {
+
+		const btn = password.querySelector('.input-wrap-password__btn');
+		const input = password.querySelector('.input-wrap-password__input');
+
+		btn.addEventListener('click', () => {
+
+			input.type = input.type === 'text' ? 'password' : 'text';
+
+		});
+
+	});
+
+})(document.querySelectorAll('.input-wrap-password'));

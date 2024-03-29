@@ -52,6 +52,12 @@
 
 	}
 
+	&:disabled &__inner {
+
+		color: rgba(255, 255, 255, 0.4);
+
+	}
+
 	&--dark &__inner {
 
 		background-color: var(--bgBorder);
@@ -119,6 +125,32 @@
 		&.is-error {
 
 			background: var(--error);
+
+		}
+
+		&-password {
+
+			position: relative;
+
+			&__btn {
+
+				position: absolute;
+				top: 0;
+				right: 19px;
+				bottom: 0;
+				margin: auto;
+				width: 24px;
+				height: 24px;
+				stroke: #939393;
+
+			}
+
+			&__input[type="text"] ~ &__btn &__ico-on,
+			&__input[type="password"] ~ &__btn &__ico-off {
+
+				opacity: 0;
+
+			}
 
 		}
 
@@ -250,6 +282,25 @@
 	&__row {
 
 		margin: 15px 0;
+
+	}
+
+	&__inputbox {
+
+		position: relative;
+		display: block;
+
+	}
+
+	&__forgot-password {
+
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-family: Montserrat;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 24px;
 
 	}
 

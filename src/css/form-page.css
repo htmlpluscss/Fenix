@@ -1,6 +1,7 @@
 .form-page {
 
 	margin: var(--margin) 0;
+	position: relative;
 
 	@media $desktop {
 
@@ -8,9 +9,24 @@
 
 	}
 
-	@media $smWidth {
+	@media $mdWidth {
 
-		margin-top: 0;
+		&::before {
+
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -64px;
+			margin: auto;
+			pointer-events: none;
+			content: '';
+			width: 100%;
+			height: 256px;
+			background-color: var(--orange);
+			filter: blur(126px);
+			opacity: 0.2;
+
+		}
 
 	}
 
@@ -21,7 +37,7 @@
 			display: flex;
 			flex-direction: row-reverse;
 			justify-content: space-between;
-			align-items: flex-start;
+			align-items: center;
 			gap: var(--indent);
 
 		}
@@ -65,6 +81,62 @@
 			width: auto;
 
 		}
+
+	}
+
+	&__img {
+
+		width: 624px;
+		padding: 56px 50px;
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+
+		@media $mdWidth {
+
+			display: none;
+
+		}
+
+		&::before {
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			pointer-events: none;
+			content: '';
+			width: 487px;
+			height: 397px;
+			background-color: var(--orange);
+			filter: blur(126px);
+			opacity: .6;
+
+		}
+
+	}
+
+	&__back {
+
+		img {
+
+			object-fit: contain;
+			object-position: right;
+
+		}
+
+	}
+
+	&__front {
+
+		position: absolute;
+		top: 0;
+		left: 69px;
+		bottom: 0;
+		display: flex;
+		align-items: center;
 
 	}
 
@@ -161,6 +233,12 @@
 			height: 397px;
 			background-color: var(--orange);
 			filter: blur(126px);
+
+			@media $smWidth {
+
+				display: none;
+
+			}
 
 		}
 
@@ -278,23 +356,6 @@
 	@media $smWidth {
 
 		margin: var(--margin) 0;
-
-		&::before {
-
-			position: absolute;
-			left: 0;
-			right: 0;
-			bottom: -128px;
-			margin: auto;
-			pointer-events: none;
-			content: '';
-			width: 487px;
-			height: 256px;
-			background-color: var(--orange);
-			filter: blur(126px);
-			opacity: 0.2;
-
-		}
 
 	}
 
