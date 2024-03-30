@@ -1,0 +1,14 @@
+{
+	"SITE" : {
+		"en" : "website",
+		"pt" : "site web",
+		"ru" : "сайт",
+		"de" : "Die Webseite"
+	},
+	"PRIVACY_POLICY" : {
+		"en" : "Privacy policy",
+		"pt" : "Terms & conditions",
+		"ru" : "Legal information",
+		"de" : "Privacy policy"
+	}
+}

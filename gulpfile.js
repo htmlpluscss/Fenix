@@ -37,33 +37,59 @@ const remember         = require('gulp-remember');
 const debug            = require('gulp-debug');
 const w3cjs            = require('gulp-w3cjs');
 
-const site             = 'Fenix';
+const site             = 'Fenilux';
 const domain           = 'fenilux.io';
+const langs            = ['en','pt','ru','de'];
+const translate        = require('./translations');
 
-const html = (files, since = {}, folder = '') => {
 
-	return gulp.src(files, since)
-		.pipe(plumber())
-		.pipe(debug({title: 'html:'}))
-		.pipe(nunjucksRender({
-			data: {
-				url: 'https://' + domain,
-				domain : domain,
-				site: site
-			},
-			path: 'src/'
-		}))
-		.pipe(w3cjs({
-			url : 'https://validator.w3.org/nu/'
-		}))
-		.pipe(w3cjs.reporter())
-		.pipe(gulp.dest('build' + folder))
+const html = (files, since = {}) => {
+
+	const promises = langs.map( lang => {
+
+		let folder = '';
+
+		if ( lang !== 'en' ) {
+
+			folder += '/' + lang;
+
+		}
+
+		return new Promise((resolve, reject) => {
+
+			gulp.src(files, since)
+				.pipe(plumber())
+				.pipe(debug({title: 'html:'}))
+				.pipe(nunjucksRender({
+					data: {
+						url: 'https://' + domain,
+						domain,
+						site,
+						lang : lang,
+						translate,
+		//				build : true
+					},
+					path: 'src/'
+				}))
+				.pipe(w3cjs({
+					url : 'https://validator.w3.org/nu/'
+				}))
+				.pipe(w3cjs.reporter())
+		//		.pipe(replace('css/styles.css', 'css/styles.min.css?' + Date.now()))
+		//		.pipe(replace('js/scripts.js', 'js/scripts.min.js?' + Date.now()))
+				.pipe(gulp.dest('build' + folder ))
+				.on('end', resolve)
+		});
+
+	});
+
+	return Promise.all(promises);
 
 };
 
 gulp.task('html', () => html('src/**/index.html', {since: gulp.lastRun('html')}));
 gulp.task('html:touch', () => html('src/**/index.html'));
-gulp.task('html:main', () => html('src/index.html', {}, '/'));
+gulp.task('html:main', () => html('src/index.html', {}));
 
 gulp.task('css', () => {
 
@@ -124,11 +150,6 @@ gulp.task('js', () => {
 
 gulp.task('serve', () => {
 
-//	gulp.src([
-//		'src/js/min/swiper.min.js',
-//		'src/js/min/inputmask.min.js'
-//	]).pipe(gulp.dest('build/js'));
-
 	server.init({
 		server: 'build',
 		files: [
@@ -168,36 +189,3 @@ gulp.task('default', gulp.series(
 	'copy',
 	gulp.parallel('watch','serve')
 	));
-
-
-gulp.task('build', gulp.series('clear','css','js','copy', ()=> gulp.src('src/**/index.html')
-		.pipe(nunjucksRender({
-			data: {
-				url: 'https://' + domain,
-				domain : domain,
-				site: site,
-				build : true
-			},
-			path: 'src/'
-		}))
-
-		.pipe(replace('css/styles.css', 'css/styles.min.css?' + Date.now()))
-		.pipe(replace('js/scripts.js', 'js/scripts.min.js?' + Date.now()))
-
-		.pipe(gulp.dest('build'))
-
-));
-
-gulp.task('min', () => {
-
-	return gulp.src(['build/**/*.html'])
-		.pipe(replace('<link href="/css/styles.css" rel="preload" as="style">', ''))
-		.pipe(replace('<link href="/js/scripts.js" rel="preload" as="script">', ''))
-		.pipe(replace('<link href="/css/styles.css" rel="stylesheet">', '<style>' + fs.readFileSync('build/css/styles.min.css', 'utf8') + '</style>'))
-		.pipe(replace('<script defer src="/js/scripts.js"></script>', ''))
-		.pipe(replace('</body>', fs.readFileSync('build/js/scripts.min.js', 'utf8') + '</body>'))
-		.pipe(htmlmin({ collapseWhitespace: true }))
-		.pipe(replace('<br', ' <br'))
-		.pipe(gulp.dest('build'))
-
-});

@@ -38,19 +38,19 @@
 						<ul>
 
 							<li>
-								<a href="/privacy-police/">
-									Privacy policy
+								<a href="{% if lang !== 'en' %}/{{ lang }}{% endif %}/privacy-police/">
+									{{ translate.PRIVACY_POLICY[lang] }}
 								</a>
 							</li>
 
 							<li>
-								<a href="/terms-and-conditions/">
+								<a href="{% if lang !== 'en' %}/{{ lang }}{% endif %}/terms-and-conditions/">
 									Terms & conditions
 								</a>
 							</li>
 
 							<li>
-								<a href="/legal-information/">
+								<a href="{% if lang !== 'en' %}/{{ lang }}{% endif %}/legal-information/">
 									Legal information
 								</a>
 							</li>

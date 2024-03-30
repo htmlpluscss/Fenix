@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<html lang="{{ lang }}" prefix="og: https://ogp.me/ns#">
 <head>
 
 	<meta charset="utf-8">
@@ -8,9 +8,9 @@
 {#
 	<link href="https://mc.yandex.ru/metrika/tag.js" rel="preload" as="script">
 	<link href="https://sc.lfeeder.com" rel="preconnect">
+	<link href="https://www.googletagmanager.com" rel="preconnect">
 #}
 
-	<link href="https://www.googletagmanager.com" rel="preconnect">
 
 	<link href="/css/styles.css" rel="preload" as="style">
 	<link href="/js/scripts.js" rel="preload" as="script">
@@ -27,7 +27,7 @@
 	<meta name="description" content="{{ description | default(site) }}">
 	<meta name="theme-color" content="#191818">
 	<meta property="og:site_name" content="{{ site }}">
-	<meta property="og:url" content="{{ url }}{% if folder %}/{{ folder }}/{% endif %}">
+	<meta property="og:url" content="{{ url }}{% if lang !== 'en' %}/{{ lang }}{% endif %}{% if folder %}/{{ folder }}{% endif %}">
 	<meta property="og:type" content="{{ ogType | default('website') }}">
 	<meta property="og:title" content="{{ title }}">
 	<meta property="og:description" content="{{ description | default(site) }}">
@@ -40,9 +40,21 @@
 	<meta property="og:image:width" content="256">
 	<meta property="og:image:height" content="256">
 
-{% for item in preloadImage %}
-	<link href="{{ item.img }}" imagesrcset="{{ item.imagesrcset }}" rel="preload" as="image" media="{{ item.media }}">
-{% endfor %}
+	<meta property="og:locale" content="{{ lang }}">
+
+{% if lang !== 'en' -%}
+	<link rel="alternate" hreflang="en" href="/{% if folder %}{{ folder }}/{% endif %}">
+{% endif %}
+{% if lang !== 'ru' -%}
+	<link rel="alternate" hreflang="ru" href="/ru/{% if folder %}{{ folder }}/{% endif %}">
+{% endif %}
+{% if lang !== 'pt' -%}
+	<link rel="alternate" hreflang="pt" href="/pt/{% if folder %}{{ folder }}/{% endif %}">
+{% endif %}
+{% if lang !== 'de' -%}
+	<link rel="alternate" hreflang="de" href="/de/{% if folder %}{{ folder }}/{% endif %}">
+{% endif %}
+
 
 	<link href="/css/styles.css" rel="stylesheet">
 
