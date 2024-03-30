@@ -25,7 +25,7 @@
 
 		[...form.querySelectorAll('[required]')].forEach( target => {
 
-			['input','change'].forEach( Event => {
+			['input','change','blur'].forEach( Event => {
 
 				target.addEventListener( Event, event => {
 
