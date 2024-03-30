@@ -36,7 +36,7 @@
 
 								<span class="input-wrap">
 
-									<input class="input" name="first-name">
+									<input class="input" name="first-name" required="required">
 
 								</span>
 
@@ -50,7 +50,7 @@
 
 								<span class="input-wrap">
 
-									<input class="input" name="last-name">
+									<input class="input" name="last-name" required="required">
 
 								</span>
 
@@ -68,7 +68,7 @@
 
 								<span class="input-wrap">
 
-									<input class="input" name="company-name">
+									<input class="input" name="company-name" required="required">
 
 								</span>
 
@@ -82,7 +82,7 @@
 
 								<span class="input-wrap">
 
-									<input class="input" name="work-email" type="email">
+									<input class="input" name="work-email" type="email" required="required">
 
 								</span>
 
@@ -100,9 +100,9 @@
 
 								<div class="select">
 
-									<select name="country">
+									<select name="country" required="required">
 
-										<option value="">Выбрать</option>
+										<option value="">None</option>
 
 										{% include "main/country.html" %}
 
@@ -138,10 +138,15 @@
 
 								<div class="select">
 
-									<select name="country">
+									<select name="country" required="required">
 
-										<option value="">Выбрать</option>
-										<option value="Choose from a selection of">Choose from a selection of</option>
+										<option value="">None</option>
+
+{% for option in ["below $250K","$250K - $1M","$1M - $5M","$5M - $25M","$25M - $100M","$100M and above","cannot share revenue"] -%}
+
+									<option value="{{ option }}">{{ option }}</option>
+
+{%- endfor %}
 
 									</select>
 
@@ -170,6 +175,8 @@
 								Submit
 							</span>
 						</button>
+
+						<div class="form__validation-message"></div>
 
 						<p class="form__after">
 							Have an account? <a href="/sign-in/">Sign in</a>

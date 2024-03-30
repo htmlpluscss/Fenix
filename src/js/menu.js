@@ -12,6 +12,16 @@
 
 		});
 
+		[...btns].forEach( btn => {
+
+			btn.addEventListener('mouseleave', ()=>{
+
+				btn.classList.remove('is-open');
+
+			});
+
+		});
+
 	}
 
 })(document.querySelectorAll('.menu__btn'));

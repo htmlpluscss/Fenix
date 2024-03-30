@@ -222,6 +222,7 @@
 		display: block;
 		padding-left: 26px;
 		cursor: pointer;
+		transition: color var(--transitionDefault);
 		font: 500 12px/24px Montserrat;
 
 		a {
@@ -272,6 +273,12 @@
 			}
 
 		}
+
+	}
+
+	&.is-error &__label {
+
+		color: var(--error) !important;
 
 	}
 
@@ -366,7 +373,7 @@
 
 	}
 
-	&__text-errot {
+	&__validation-message {
 
 		font-family: Montserrat;
 		font-size: 12px;
