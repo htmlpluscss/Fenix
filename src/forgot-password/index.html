@@ -1,6 +1,6 @@
-{% set title = "Forgot Password" %}
+{% set title = translate.TITLE_FORGOT_PASSWORD[lang] %}
 
-{% set description = "Please enter your email below." %}
+{% set description = translate.DESCRIPTION_FORGOT_PASSWORD[lang] %}
 
 {% set folder = "forgot-password" %}
 
@@ -19,11 +19,11 @@
 				<div class="form-page__form">
 
 					<p class="form-page__before before">
-						Please enter your email below.
+						{{ translate.FORM_FORGOT_PASSWORD_BEFORE[lang] }}
 					</p>
 
 					<h1 class="form-page__title h3">
-						Forgot Password
+						{{ title }}
 					</h1>
 
 					<form action="/" class="form">
@@ -33,7 +33,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Email
+									{{ translate.EMAIL[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -48,14 +48,14 @@
 
 						<button class="btn btn--brown form__submit">
 							<span class="btn__inner">
-								Submit
+								{{ translate.SUBMIT[lang] }}
 							</span>
 						</button>
 
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							Remembered the password? <a href="{{ subdomain }}/sign-in/">Back to Login</a>
+							{{ translate.REMEMBERED_THE_PASSWORD[lang] }}? <a href="{{ subdomain }}/sign-in/">{{ translate.BACK_TO_LOGIN[lang] }}</a>
 						</p>
 
 					</form>

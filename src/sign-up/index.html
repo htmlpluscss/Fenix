@@ -1,6 +1,6 @@
-{% set title = "Getting started with Fenilux is quick and easy." %}
+{% set title = translate.TITLE_SIGN_UP[lang] %}
 
-{% set description = "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business." %}
+{% set description = translate.DESCRIPTION_SIGN_UP[lang] %}
 
 {% set folder = "sign-up" %}
 
@@ -12,18 +12,18 @@
 
 	<div class="center">
 
-		<div class="form-page form-status">
+		<div class="form-page form-status is-done">
 
 			<div class="form-page__box">
 
 				<div class="form-page__form">
 
 					<p class="form-page__before before">
-						Get started with Fenilux
+						{{ translate.FORM_SIGN_UP_BEFORE[lang] }}
 					</p>
 
 					<h1 class="form-page__title h3">
-						Contact Sales
+						{{ translate.FORM_SIGN_UP_TITLE[lang] }}
 					</h1>
 
 					<form action="/" class="form">
@@ -33,7 +33,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									First name
+									{{ translate.FIRST_NAME[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -47,7 +47,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Last Name
+									{{ translate.LAST_NAME[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -65,7 +65,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Company name
+									{{ translate.COMPANY_NAME[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -79,7 +79,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Work email
+									{{ translate.WORK_EMAIL[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -97,14 +97,14 @@
 							<div class="form__inputbox">
 
 								<span class="form__label">
-									Country
+									{{ translate.COUNTRY[lang] }}
 								</span>
 
 								<div class="select">
 
 									<select name="country" required="required">
 
-										<option value="">None</option>
+										<option value="">{{ translate.NONE[lang] }}</option>
 
 										{% include "main/country.html" %}
 
@@ -117,7 +117,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Phone
+									{{ translate.PHONE[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -135,20 +135,20 @@
 							<div class="form__inputbox">
 
 								<span class="form__label">
-									What is your annual range?
+									{{ translate.FORM_SIGN_UP_WHAT_RANGE[lang] }}?
 								</span>
 
 								<div class="select">
 
-									<select name="country" required="required">
+									<select name="range" required="required">
 
-										<option value="">None</option>
+										<option value="">{{ translate.NONE[lang] }}</option>
 
-{% for option in ["below $250K","$250K - $1M","$1M - $5M","$5M - $25M","$25M - $100M","$100M and above","cannot share revenue"] -%}
+										{% for option in ["below $250K","$250K - $1M","$1M - $5M","$5M - $25M","$25M - $100M","$100M and above","cannot share revenue"] -%}
 
-									<option value="{{ option }}">{{ option }}</option>
+										<option value="{{ option }}">{{ option }}</option>
 
-{%- endfor %}
+										{%- endfor %}
 
 									</select>
 
@@ -165,7 +165,7 @@
 								<input type="checkbox" class="checkbox__input" required="required">
 
 								<span class="checkbox__label">
-									I have read the <a href="{{ subdomain }}/terms-and-conditions/" target="_blank">Terms of Service</a> and <a href="{{ subdomain }}/privacy-police/" target="_blank">Privacy Policy</a>
+									{{ translate.I_AGREE[lang] }} <a href="{{ subdomain }}/terms-and-conditions/" target="_blank">{{ translate.TERMS_CONDITIONS[lang] }}</a> and <a href="{{ subdomain }}/privacy-police/" target="_blank">{{ translate.PRIVACY_POLICY[lang] }}</a>
 								</span>
 
 							</label>
@@ -174,14 +174,14 @@
 
 						<button class="btn btn--brown form__submit">
 							<span class="btn__inner">
-								Submit
+								{{ translate.SUBMIT[lang] }}
 							</span>
 						</button>
 
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							Have an account? <a href="{{ subdomain }}/sign-in/">Sign in</a>
+							{{ translate.FORM_SIGN_UP_ACCOUNT_IS[lang] }}? <a href="{{ subdomain }}/sign-in/">{{ translate.SIGN_IN[lang] }}</a>
 						</p>
 
 					</form>
@@ -195,38 +195,37 @@
 					<div class="border__inner">
 
 						<h2 class="form-page__heading h4">
-							Getting started with Fenilux <br>
-							is quick and easy.
+							{{ translate.FORM_SIGN_UP_INFO_TITLE[lang] | safe }}
 						</h2>
 
 						<p class="form-page__text">
-							New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.
+							{{ translate.FORM_SIGN_UP_INFO_TEXT[lang] | safe }}
 						</p>
 
 						<ol class="form-page__list">
 
 							<li>
-								Tell us about your business
+								{{ translate.FORM_SIGN_UP_INFO_LIST[lang][0] | safe }}
 								<small>
-									The basics about your business and what you do.
+									{{ translate.FORM_SIGN_UP_INFO_LIST_SMALL[lang][0] | safe }}
 								</small>
 							</li>
 
 							<li>
-								Your payment processing needs
+								{{ translate.FORM_SIGN_UP_INFO_LIST[lang][1] | safe }}
 								<small>
-									How you plan to use Helcim — and the tax stuff.
+									{{ translate.FORM_SIGN_UP_INFO_LIST_SMALL[lang][1] | safe }}
 								</small>
 							</li>
 
 							<li>
-								A little bit about you
+								{{ translate.FORM_SIGN_UP_INFO_LIST[lang][2] | safe }}
 							</li>
 
 						</ol>
 
 						<p class="form-page__text">
-							If you are an existing customer looking for support, please submit a support ticket or call <a href="tel:+554841040770">+55 (48) 4104.0770</a>
+							{{ translate.FORM_SIGN_UP_INFO_SUPPORT[lang] | safe }} <a href="tel:+554841040770">+55 (48) 4104.0770</a>
 						</p>
 
 					</div>

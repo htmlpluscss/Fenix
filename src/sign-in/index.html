@@ -1,6 +1,6 @@
-{% set title = "Sign in to your account" %}
+{% set title = translate.TITLE_SIGN_IN[lang] %}
 
-{% set description = "Next Generation Payment Network" %}
+{% set description = translate.DESCRIPTION_SIGN_IN[lang] %}
 
 {% set folder = "sign-in" %}
 
@@ -19,11 +19,11 @@
 				<div class="form-page__form">
 
 					<p class="form-page__before before">
-						Next Generation Payment Network
+						{{ translate.FORM_SIGN_IN_BEFORE[lang] }}
 					</p>
 
 					<h1 class="form-page__title h3">
-						Sign in to your account
+						{{ title }}
 					</h1>
 
 					<form action="/" class="form">
@@ -33,7 +33,7 @@
 							<label class="form__inputbox">
 
 								<span class="form__label">
-									Email
+									{{ translate.EMAIL[lang] }}
 								</span>
 
 								<span class="input-wrap">
@@ -51,18 +51,18 @@
 							<div class="form__inputbox">
 
 								<span class="form__label">
-									Password
+									{{ translate.PASSWORD[lang] }}
 								</span>
 
 								<a href="{{ subdomain }}/forgot-password/" class="form__forgot-password">
-									Forgotten password?
+									{{ translate.FORGOTTEN_PASSWORD[lang] }}?
 								</a>
 
 								<span class="input-wrap input-wrap-password">
 
 									<input class="input-wrap-password__input input" name="password" type="password" required="required">
 
-									<button class="input-wrap-password__btn button" type="button" aria-label="toggle visible password">
+									<button class="input-wrap-password__btn button" type="button" aria-label="{{ translate.TOGGLE_VISIBLE_PASSWORD[lang] }}">
 
 										<svg width="24" height="24" viewBox="0 0 24 24">
 
@@ -86,14 +86,14 @@
 
 						<button class="btn btn--brown form__submit">
 							<span class="btn__inner">
-								Sign in
+								{{ translate.SIGN_IN[lang] }}
 							</span>
 						</button>
 
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							You don't have an account? <a href="{{ subdomain }}/sign-up/">Contact us</a>
+							{{ translate.FORM_SIGN_IN_ACCOUNT_IS[lang] }}? <a href="{{ subdomain }}/sign-up/">{{ translate.FORM_SIGN_IN_LOGIN_FORM_LINK[lang] }}</a>
 						</p>
 
 					</form>

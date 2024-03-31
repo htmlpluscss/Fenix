@@ -1,5 +1,65 @@
 {
-	"--HEADER--": {},
+"--TITLE--": {},
+
+	"TITLE_HOME" : {
+		"en" : "Next Generation Payment Network",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"TITLE_FORGOT_PASSWORD" : {
+		"en" : "Forgot Password",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"TITLE_SIGN_IN" : {
+		"en" : "Sign in to your account",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"TITLE_SIGN_UP" : {
+		"en" : "Getting started with Fenilux is quick and easy.",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+"--DESCRIPTION--": {},
+
+	"DESCRIPTION_HOME" : {
+		"en" : "End-to-end payments, transactions with freelancers, and the acquisition of digital assets in a single solution. Meet the financial technology platform that helps you realize your ambitions faster.",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"DESCRIPTION_FORGOT_PASSWORD" : {
+		"en" : "Please enter your email below.",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"DESCRIPTION_SIGN_IN" : {
+		"en" : "Next Generation Payment Network",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"DESCRIPTION_SIGN_UP" : {
+		"en" : "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+"--HEADER--": {},
 
 	"CHOOSE_A_LANGUAGE" : {
 		"en" : "choose a language",
@@ -20,117 +80,262 @@
 		"de" : ""
 	},
 
-	"--TEXT--": {},
+"--TEXT--": {},
 
-	"LOGIN" : {
-		"en" : "Login",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"CONTACT_SALES" : {
-		"en" : "Contact sales",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+		"LOGIN" : {
+			"en" : "Login",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"CONTACT_SALES" : {
+			"en" : "Contact sales",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"PRIVACY_POLICY" : {
-		"en" : "Privacy policy",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"TERMS_CONDITIONS" : {
-		"en" : "Terms & conditions",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"LEGAL_INFORMATION" : {
-		"en" : "Legal information",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+		"PRIVACY_POLICY" : {
+			"en" : "Privacy policy",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"TERMS_CONDITIONS" : {
+			"en" : "Terms & conditions",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"LEGAL_INFORMATION" : {
+			"en" : "Legal information",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"LEGAL_INFO" : {
-		"en" : "Legal info",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+		"LEGAL_INFO" : {
+			"en" : "Legal info",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"--FORM--": {},
+		"SUBMIT" : {
+			"en" : "Submit",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+		"SIGN_IN" : {
+			"en" : "Sign in",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+		"I_AGREE" : {
+			"en" : "I have read the",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"--FOOTER--": {},
+		"NONE" : {
+			"en" : "None",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
-	"COPYRIGHT" : {
-		"en" : "Fenix Financial Technologies",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"FOOTER_ADDRESS" : {
-		"en" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"FOOTER_CONTACT" : {
-		"en" : "Contact",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	}
+		"PHONE" : {
+			"en" : "Phone",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"COUNTRY" : {
+			"en" : "Country",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"FIRST_NAME" : {
+			"en" : "First name",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"LAST_NAME" : {
+			"en" : "Last Name",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"COMPANY_NAME" : {
+			"en" : "Company name",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"WORK_EMAIL" : {
+			"en" : "Work email",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"EMAIL" : {
+			"en" : "Email",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"PASSWORD" : {
+			"en" : "Password",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"FORGOTTEN_PASSWORD" : {
+			"en" : "Forgotten password",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+		"TOGGLE_VISIBLE_PASSWORD" : {
+			"en" : "toggle visible password",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+"--FORM_FORGOT_PASSWORD--": {},
+
+		"FORM_FORGOT_PASSWORD_BEFORE" : {
+			"en" : "Please enter your email below.",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"REMEMBERED_THE_PASSWORD" : {
+			"en" : "Remembered the password",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"BACK_TO_LOGIN" : {
+			"en" : "Back to Login",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+"--FORM_SIGN_IN--": {},
+
+		"FORM_SIGN_IN_BEFORE" : {
+			"en" : "Next Generation Payment Network",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_IN_ACCOUNT_IS" : {
+			"en" : "You don't have an account",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_IN_LOGIN_FORM_LINK" : {
+			"en" : "Contact us",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+"--FORM_SIGN_UP--": {},
+
+		"FORM_SIGN_UP_BEFORE" : {
+			"en" : "Get started with Fenilux",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_TITLE" : {
+			"en" : "Contact sales",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_WHAT_RANGE" : {
+			"en" : "What is your annual range",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_ACCOUNT_IS" : {
+			"en" : "Have an account",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_INFO_TITLE" : {
+			"en" : "Getting started with Fenilux <br>is quick and easy.",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_INFO_TEXT" : {
+			"en" : "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_INFO_SUPPORT" : {
+			"en" : "If you are an existing customer looking for support, please submit a support ticket or call",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_INFO_LIST" : {
+			"en" : ["Tell us about your business","Your payment processing needs","A little bit about you"],
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_INFO_LIST_SMALL" : {
+			"en" : ["The basics about your business and what you do.","How you plan to use Helcim — and the tax stuff."],
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+"--FOOTER--": {},
+
+		"COPYRIGHT" : {
+			"en" : "Fenix Financial Technologies",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FOOTER_ADDRESS" : {
+			"en" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FOOTER_CONTACT" : {
+			"en" : "Contact",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		}
 }
