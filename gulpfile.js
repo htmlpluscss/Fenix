@@ -71,10 +71,10 @@ const html = (files, since = {}) => {
 					},
 					path: 'src/'
 				}))
-				.pipe(w3cjs({
-					url : 'https://validator.w3.org/nu/'
-				}))
-				.pipe(w3cjs.reporter())
+//				.pipe(w3cjs({
+//					url : 'https://validator.w3.org/nu/'
+//				}))
+//				.pipe(w3cjs.reporter())
 		//		.pipe(replace('css/styles.css', 'css/styles.min.css?' + Date.now()))
 		//		.pipe(replace('js/scripts.js', 'js/scripts.min.js?' + Date.now()))
 				.pipe(gulp.dest('build' + folder ))

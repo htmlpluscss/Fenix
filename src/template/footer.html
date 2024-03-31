@@ -45,13 +45,13 @@
 
 							<li>
 								<a href="{% if lang !== 'en' %}/{{ lang }}{% endif %}/terms-and-conditions/">
-									Terms & conditions
+									{{ translate.TERMS_CONDITIONS[lang] }}
 								</a>
 							</li>
 
 							<li>
 								<a href="{% if lang !== 'en' %}/{{ lang }}{% endif %}/legal-information/">
-									Legal information
+									{{ translate.LEGAL_INFORMATION[lang] }}
 								</a>
 							</li>
 
@@ -62,18 +62,17 @@
 					<div class="footer__menu footer__menu--ico">
 
 						<p>
-							Contact
+							{{ translate.FOOTER_CONTACT[lang] }}
 						</p>
 
 						<ul>
 
 							<li>
-								<a href="/">
+								<a href="https://maps.app.goo.gl/YuqrEadAMb2BnuJd9" target="_blank" rel="noopener nofollow">
 									<svg width="24" height="24" viewBox="0 0 24 24">
 										<path d="M18.36 17.36 12 23.73l-6.36-6.37a9 9 0 1 1 12.72 0ZM12 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm0-2a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/>
 									</svg>
-									R. Cristovão Nunes Pires, 110 - sala 902 <br>
-									Centro - Florianópolis/SC - Brasil
+									{{ translate.FOOTER_ADDRESS[lang] | safe }}
 								</a>
 							</li>
 
@@ -108,7 +107,7 @@
 		<div class="footer__copyright">
 
 			<p>
-				© 2024 Fenix Financial Technologies
+				© 2024 {{ translate.FOOTER_COPYRIGHT[lang] }}
 			</p>
 
 		</div>
