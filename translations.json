@@ -219,6 +219,13 @@
 			"de" : ""
 		},
 
+		"GET_STARTED" : {
+			"en" : "Get started",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
 "--FORM_FORGOT_PASSWORD--": {},
 
 		"FORM_FORGOT_PASSWORD_BEFORE" : {
@@ -355,5 +362,134 @@
 			"pt" : "",
 			"ru" : "",
 			"de" : ""
+		},
+
+"--HOME--": {},
+
+	"--FIRST-SCREEN--": {},
+
+		"FIRST_SCREEN_TITLE" : {
+			"en" : "<b>Next Generation</b> Payment Network",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+	"--READY-TO-GET-STARTED--": {},
+
+		"READY_GET_STARTED_TITLE" : {
+			"en" : "Ready to get started",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+	"--workflow--": {},
+
+		"workflow_TITLE" : {
+			"en" : "Key Partnerships",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"workflow_BEFORE" : {
+			"en" : "Fenilux ecosystem",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+	"--WORKFLOW--": {},
+
+		"WORKFLOW_TITLE" : {
+			"en" : "How it Works",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"WORKFLOW_BEFORE" : {
+			"en" : "Fenilux workflow",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"WORKFLOW_LIST" : {
+			"en" : ["Two parties, the Client and the Contractor, sign a contract for services, goods, or freelance work.","They specify Fenilux as their Payment Agent in the Payment Terms section of that contract.","The Client, Contractor, and Fenilux sign a tripartite Agreement regulating the services of the Payment Agent.","Fenilux undertakes to receive funds from the Client and transfer them to the Contractor.","The additional services may include escrow, invoice processing and aggregation, and KYC procedures.","Fenilux ensures smooth financial transactions, enhancing efficiency and reliability."],
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+
+	"--BENEFITS--": {},
+
+		"BENEFITS_TITLE" : {
+			"en" : "Our core concepts",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"BENEFITS_BEFORE" : {
+			"en" : "Fenilux Benefits",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"BENEFITS_LIST" : {
+			"en" : [
+				{
+					"name" : "Best <br>Product",
+					"text" : "Our aim is to deliver our services at the pinnacle of technological excellence, seamlessly integrated with unparalleled user experience."
+				},
+				{
+					"name" : "Enhancing <br>Customer Engagement",
+					"text" : "Our customers are central to our mission, acting as key promoters and having the power to shape our products and business quickly."
+				},
+				{
+					"name" : "Revolutionizing <br>Economics",
+					"text" : "Our goal is to offer unbeatable prices to our customers, empowering their buying potential. Our business model is set to change the way merchants sell and earn."
+				}
+			],
+			"pt" : [
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				}
+			],
+			"ru" : [
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				}
+			],
+			"de" : [
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				},
+				{
+					"name" : "NAME",
+					"text" : "TEXT"
+				}
+			]
 		}
 }

@@ -3,38 +3,20 @@
 			<div class="center">
 
 				<p class="workflow__before before">
-					Fenilux workflow
+					{{ translate.WORKFLOW_BEFORE[lang] }}
 				</p>
 
 				<h2 class="workflow__title h1">
-					How it Works
+					{{ translate.WORKFLOW_TITLE[lang] }}
 				</h2>
 
 				<ol class="workflow__list">
 
-					<li>
-						Two parties, the Client and the Contractor, sign a contract for services, goods, or freelance work.
-					</li>
+{% for li in translate.WORKFLOW_LIST[lang] %}
 
-					<li>
-						They specify Fenilux as their Payment Agent in the Payment Terms section of that contract.
-					</li>
+					<li>{{ li }}</li>
 
-					<li>
-						The Client, Contractor, and Fenilux sign a tripartite Agreement regulating the services of the Payment Agent.
-					</li>
-
-					<li>
-						Fenilux undertakes to receive funds from the Client and transfer them to the Contractor.
-					</li>
-
-					<li>
-						The additional services may include escrow, invoice processing and aggregation, and KYC procedures.
-					</li>
-
-					<li>
-						Fenilux ensures smooth financial transactions, enhancing efficiency and reliability.
-					</li>
+{% endfor %}
 
 				</ol>
 

@@ -3,11 +3,11 @@
 			<div class="center">
 
 				<p class="benefits__before before">
-					Fenilux Benefits
+					{{ translate.BENEFITS_BEFORE[lang] }}
 				</p>
 
 				<h2 class="benefits__title h1">
-					Our core concepts
+					{{ translate.BENEFITS_BEFORE[lang] }}
 				</h2>
 
 				<ul class="benefits__list">
@@ -29,14 +29,13 @@
 							</div>
 
 							<b class="benefits__name">
-								Best <br>
-								Product
+								{{ translate.BENEFITS_LIST[lang][0].name | safe }}
 							</b>
 
 						</div>
 
 						<p class="benefits__body">
-							Our aim is to deliver our services at the pinnacle of technological excellence, seamlessly integrated with unparalleled user experience.
+							{{ translate.BENEFITS_LIST[lang][0].text | safe }}
 						</p>
 
 					</li>
@@ -52,14 +51,13 @@
 							</div>
 
 							<b class="benefits__name">
-								Enhancing <br>
-								Customer Engagement
+								{{ translate.BENEFITS_LIST[lang][1].name | safe }}
 							</b>
 
 						</div>
 
 						<p class="benefits__body">
-							Our customers are central to our mission, acting as key promoters and having the power to shape our products and business quickly.
+							{{ translate.BENEFITS_LIST[lang][1].text | safe }}
 						</p>
 
 					</li>
@@ -75,14 +73,13 @@
 							</div>
 
 							<b class="benefits__name">
-								Revolutionizing <br>
-								Economics
+								{{ translate.BENEFITS_LIST[lang][2].name | safe }}
 							</b>
 
 						</div>
 
 						<p class="benefits__body">
-							Our goal is to offer unbeatable prices to our customers, empowering their buying potential. Our business model is set to change the way merchants sell and earn.
+							{{ translate.BENEFITS_LIST[lang][2].text | safe }}
 						</p>
 
 					</li>
