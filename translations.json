@@ -1,18 +1,8 @@
 {
+	"--HEADER--": {},
+
 	"CHOOSE_A_LANGUAGE" : {
 		"en" : "choose a language",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"LOGIN" : {
-		"en" : "Login",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"CONTACT_SALES" : {
-		"en" : "Contact sales",
 		"pt" : "",
 		"ru" : "",
 		"de" : ""
@@ -29,78 +19,22 @@
 		"ru" : "",
 		"de" : ""
 	},
-	"SITE" : {
-		"en" : "",
+
+	"--TEXT--": {},
+
+	"LOGIN" : {
+		"en" : "Login",
 		"pt" : "",
 		"ru" : "",
 		"de" : ""
 	},
-	"SITE" : {
-		"en" : "",
+	"CONTACT_SALES" : {
+		"en" : "Contact sales",
 		"pt" : "",
 		"ru" : "",
 		"de" : ""
 	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"SITE" : {
-		"en" : "",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"FOOTER_COPYRIGHT" : {
-		"en" : "Fenix Financial Technologies",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"FOOTER_ADDRESS" : {
-		"en" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
-	"FOOTER_CONTACT" : {
-		"en" : "Contact",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
-	},
+
 	"PRIVACY_POLICY" : {
 		"en" : "Privacy policy",
 		"pt" : "",
@@ -115,6 +49,86 @@
 	},
 	"LEGAL_INFORMATION" : {
 		"en" : "Legal information",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"LEGAL_INFO" : {
+		"en" : "Legal info",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"--FORM--": {},
+
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"SITE" : {
+		"en" : "",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+
+	"--FOOTER--": {},
+
+	"COPYRIGHT" : {
+		"en" : "Fenix Financial Technologies",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"FOOTER_ADDRESS" : {
+		"en" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+		"pt" : "",
+		"ru" : "",
+		"de" : ""
+	},
+	"FOOTER_CONTACT" : {
+		"en" : "Contact",
 		"pt" : "",
 		"ru" : "",
 		"de" : ""

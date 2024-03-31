@@ -2,6 +2,8 @@
 
 {% set description = "Please enter your email below." %}
 
+{% set folder = "forgot-password" %}
+
 {% set headerBtnOff = true %}
 
 {% extends "template/base.html" %}
@@ -53,7 +55,7 @@
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							Remembered the password? <a href="/sign-in/">Back to Login</a>
+							Remembered the password? <a href="{{ subdomain }}/sign-in/">Back to Login</a>
 						</p>
 
 					</form>

@@ -2,6 +2,8 @@
 
 {% set description = "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business." %}
 
+{% set folder = "sign-up" %}
+
 {% set headerBtnOff = true %}
 
 {% extends "template/base.html" %}
@@ -163,7 +165,7 @@
 								<input type="checkbox" class="checkbox__input" required="required">
 
 								<span class="checkbox__label">
-									I have read the <a href="/terms-and-conditions/" target="_blank">Terms of Service</a> and <a href="/privacy-police/" target="_blank">Privacy Policy</a>
+									I have read the <a href="{{ subdomain }}/terms-and-conditions/" target="_blank">Terms of Service</a> and <a href="{{ subdomain }}/privacy-police/" target="_blank">Privacy Policy</a>
 								</span>
 
 							</label>
@@ -179,7 +181,7 @@
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							Have an account? <a href="/sign-in/">Sign in</a>
+							Have an account? <a href="{{ subdomain }}/sign-in/">Sign in</a>
 						</p>
 
 					</form>

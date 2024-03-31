@@ -6,7 +6,7 @@
 
 				<div class="header__logo">
 
-					<a href="/">
+					<a href="{{ subdomain }}/">
 
 						<picture>
 
@@ -23,13 +23,13 @@
 
 {% if not headerBtnOff %}
 
-				<a href="/sign-in/" class="header__btn btn btn--brown">
+				<a href="{{ subdomain }}/sign-in/" class="header__btn btn btn--brown">
 					<span class="btn__inner">
 						{{ translate.LOGIN[lang] }}
 					</span>
 				</a>
 
-				<a href="/sign-up/" class="header__btn btn btn--dark">
+				<a href="{{ subdomain }}/sign-up/" class="header__btn btn btn--dark">
 					<span class="btn__inner">
 						{{ translate.CONTACT_SALES[lang] }}
 					</span>

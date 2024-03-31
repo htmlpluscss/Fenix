@@ -27,7 +27,7 @@
 	<meta name="description" content="{{ description | default(site) }}">
 	<meta name="theme-color" content="#191818">
 	<meta property="og:site_name" content="{{ site }}">
-	<meta property="og:url" content="{{ url }}{% if lang !== 'en' %}/{{ lang }}{% endif %}{% if folder %}/{{ folder }}{% endif %}">
+	<meta property="og:url" content="{{ url }}{{ subdomain }}{% if folder %}/{{ folder }}{% endif %}">
 	<meta property="og:type" content="{{ ogType | default('website') }}">
 	<meta property="og:title" content="{{ title }}">
 	<meta property="og:description" content="{{ description | default(site) }}">
@@ -41,20 +41,11 @@
 	<meta property="og:image:height" content="256">
 
 	<meta property="og:locale" content="{{ lang }}">
-
-{% if lang !== 'en' -%}
-	<link rel="alternate" hreflang="en" href="/{% if folder %}{{ folder }}/{% endif %}">
+{% for _lang in langs -%}
+{% if _lang !== lang %}
+	<link rel="alternate" hreflang="{{ _lang }}" href="/{% if _lang !== 'en' %}{{ _lang }}/{% endif %}{% if folder %}{{ folder }}/{% endif %}">
 {% endif %}
-{% if lang !== 'ru' -%}
-	<link rel="alternate" hreflang="ru" href="/ru/{% if folder %}{{ folder }}/{% endif %}">
-{% endif %}
-{% if lang !== 'pt' -%}
-	<link rel="alternate" hreflang="pt" href="/pt/{% if folder %}{{ folder }}/{% endif %}">
-{% endif %}
-{% if lang !== 'de' -%}
-	<link rel="alternate" hreflang="de" href="/de/{% if folder %}{{ folder }}/{% endif %}">
-{% endif %}
-
+{%- endfor %}
 
 	<link href="/css/styles.css" rel="stylesheet">
 

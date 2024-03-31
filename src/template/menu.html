@@ -18,7 +18,7 @@
 {% for link in ["/","/","/","/"] -%}
 
 							<li>
-								<a href="{{ link }}">{{ translate.MENU[lang][loop.index0] }}</a>
+								<a href="{{ subdomain }}{{ link }}">{{ translate.MENU[lang][loop.index0] }}</a>
 							</li>
 
 {%- endfor %}

@@ -2,6 +2,8 @@
 
 {% set description = "Next Generation Payment Network" %}
 
+{% set folder = "sign-in" %}
+
 {% set headerBtnOff = true %}
 
 {% extends "template/base.html" %}
@@ -52,7 +54,7 @@
 									Password
 								</span>
 
-								<a href="/forgot-password/" class="form__forgot-password">
+								<a href="{{ subdomain }}/forgot-password/" class="form__forgot-password">
 									Forgotten password?
 								</a>
 
@@ -91,7 +93,7 @@
 						<div class="form__validation-message"></div>
 
 						<p class="form__after">
-							You don't have an account? <a href="/sign-up/">Contact us</a>
+							You don't have an account? <a href="{{ subdomain }}/sign-up/">Contact us</a>
 						</p>
 
 					</form>

@@ -42,6 +42,20 @@ const domain           = 'fenilux.io';
 const langs            = ['en','pt','ru','de'];
 const translate        = require('./translations');
 
+// если нет перевода
+for ( let key in translate ) {
+
+	langs.forEach( lang => {
+
+		if ( !translate[key][lang] ) {
+
+			translate[key][lang] = key;
+
+		}
+
+	});
+
+}
 
 const html = (files, since = {}) => {
 
@@ -51,7 +65,7 @@ const html = (files, since = {}) => {
 
 		if ( lang !== 'en' ) {
 
-			folder += '/' + lang;
+			folder = '/' + lang;
 
 		}
 
@@ -65,7 +79,9 @@ const html = (files, since = {}) => {
 						url: 'https://' + domain,
 						domain,
 						site,
-						lang : lang,
+						subdomain : folder,
+						lang,
+						langs,
 						translate,
 		//				build : true
 					},
