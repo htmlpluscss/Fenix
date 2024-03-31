@@ -12,7 +12,7 @@
 
 	<div class="center">
 
-		<div class="form-page form-status is-done">
+		<div class="form-page form-status">
 
 			<div class="form-page__box">
 
@@ -106,7 +106,7 @@
 
 										<option value="">{{ translate.NONE[lang] }}</option>
 
-										{% include "main/country.html" %}
+										{% include "sign-up/country.html" %}
 
 									</select>
 
@@ -144,11 +144,7 @@
 
 										<option value="">{{ translate.NONE[lang] }}</option>
 
-										{% for option in ["below $250K","$250K - $1M","$1M - $5M","$5M - $25M","$25M - $100M","$100M and above","cannot share revenue"] -%}
-
-										<option value="{{ option }}">{{ option }}</option>
-
-										{%- endfor %}
+										{% include "sign-up/range.html" %}
 
 									</select>
 
@@ -247,16 +243,15 @@
 					</div>
 
 					<p class="form-page-done__title h2">
-						Thank You <br>
-						for Choosing Fenilux!
+						{{ translate.FORM_SIGN_UP_DONE_TITLE[lang] | safe }}!
 					</p>
 
 					<p class="form-page-done__text">
-						We sincerely appreciate your interest in our services. Rest assured that your message has been received, and our dedicated sales manager will promptly attend to your request. Should you have any further questions or require immediate assistance, please do not hesitate to reach out to us.
+						{{ translate.FORM_SIGN_UP_DONE_TEXT[lang] | safe }}
 					</p>
 
-					<a href="/" class="form-page-done__btn btn btn--brown">
-						<span class="btn__inner">Back to the Home Page</span>
+					<a href="{{ subdomain }}/" class="form-page-done__btn btn btn--brown">
+						<span class="btn__inner">{{ translate.FORM_SIGN_UP_DONE_BACK_HOME_PAGE[lang] }}</span>
 					</a>
 
 				</div>

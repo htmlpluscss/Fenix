@@ -317,6 +317,24 @@
 			"ru" : "",
 			"de" : ""
 		},
+		"FORM_SIGN_UP_DONE_TITLE" : {
+			"en" : "Thank You <br>for Choosing Fenilux",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_DONE_TEXT" : {
+			"en" : "We sincerely appreciate your interest in our services. Rest assured that your message has been received, and our dedicated sales manager will promptly attend to your request. Should you have any further questions or require immediate assistance, please do not hesitate to reach out to us.",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
+		"FORM_SIGN_UP_DONE_BACK_HOME_PAGE" : {
+			"en" : "Back to the Home Page",
+			"pt" : "",
+			"ru" : "",
+			"de" : ""
+		},
 
 "--FOOTER--": {},
 

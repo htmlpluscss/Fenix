@@ -1,0 +1,36 @@
+{% for option in [
+	{
+		value : "below $250K",
+		ru : "BELOW_$250K",
+		pt : "BELOW_$250K",
+		de : "BELOW_$250K"
+	},
+	{
+		value : "$250K - $1M"
+	},
+	{
+		value : "$1M - $5M"
+	},
+	{
+		value : "$5M - $25M"
+	},
+	{
+		value : "$25M - $100M"
+	},
+	{
+		value : "$100M and above",
+		ru : "$100M_AND_ABOVE",
+		pt : "$100M_AND_ABOVE",
+		de : "$100M_AND_ABOVE"
+	},
+	{
+		value : "cannot share revenue",
+		ru : "CANNOT_SHARE_REVENUE",
+		pt : "CANNOT_SHARE_REVENUE",
+		de : "CANNOT_SHARE_REVENUE"
+	}
+] -%}
+
+										<option value="{{ option.value }}">{% if option[lang] %}{{ option[lang] }}{% else %}{{ option.value }}{% endif %}</option>
+
+{%- endfor %}
