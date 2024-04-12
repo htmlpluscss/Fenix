@@ -10,19 +10,32 @@
 
 	}
 
-	&__warning {
+	.counter-headings {
 
-		font-size: 24px;
-		font-weight: 500;
-		line-height: 40px;
-		margin: 40px 0;
-		color: rgba(229, 229, 229, 0.8);
+		counter-reset: headings 0;
 
-		@media $smWidth {
+		h2 {
 
-			font-size: 20px;
-			line-height: 32px;
-			margin: 20px 0;
+			counter-increment: headings 1;
+			counter-reset: point 0;
+
+			&::before {
+
+				content: counter(headings, decimal) '. ';
+
+			}
+
+		}
+
+		&__point {
+
+			counter-increment: point 1;
+
+			&::before {
+
+				content: counter(headings, decimal) '.' counter(point, decimal) '.';
+
+			}
 
 		}
 
@@ -51,37 +64,6 @@
 
 			font-size: 14px;
 			line-height: 24px;
-
-		}
-
-		&.counter-headings {
-
-			counter-reset: headings 0;
-
-			h2 {
-
-				counter-increment: headings 1;
-				counter-reset: point 0;
-
-				&::before {
-
-					content: counter(headings, decimal) '. ';
-
-				}
-
-			}
-
-			h3 {
-
-				counter-increment: point 1;
-
-				&::before {
-
-					content: counter(headings, decimal) '.' counter(point, decimal);
-
-				}
-
-			}
 
 		}
 
@@ -123,7 +105,9 @@
 
 	p, li {
 
-		& + p {
+		& ~ p,
+		& ~ ol,
+		& ~ ul {
 
 			margin-top: 32px;
 
@@ -137,11 +121,11 @@
 
 		& + li {
 
-			margin-top: 32px;
+			margin-top: 16px;
 
 			@media $smWidth {
 
-				margin-top: 20px;
+				margin-top: 12px;
 
 			}
 
