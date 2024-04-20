@@ -3,437 +3,633 @@
 
 	"TITLE_HOME" : {
 		"en" : "Next Generation Payment Network",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Servicio de pago de la Próxima Generación",
+		"cas" : "Servicio de pago de la Próxima Generación",
+		"pt" : "Serviço de pagamento da Próxima Geração",
+		"ru" : "Платёжная сеть нового поколения",
+		"fr" : "Réseau de paiement de nouvelle génération"
 	},
 
 	"TITLE_FORGOT_PASSWORD" : {
 		"en" : "Forgot Password",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Has olvidado tu contraseña",
+		"cas" : "Olvidaste tu contraseña",
+		"pt" : "Esqueceu a senha",
+		"ru" : "Забыли пароль",
+		"fr" : "Mot de passe oublié"
 	},
 
 	"TITLE_SIGN_IN" : {
 		"en" : "Sign in to your account",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Inicia sesión en tu cuenta",
+		"cas"  : "Iniciá sesión en tu cuenta",
+		"pt" : "Inicie a sessão na sua conta",
+		"ru" : "Войдите в свой аккаунт",
+		"fr" : "Connectez-vous à votre compte"
 	},
 
 	"TITLE_SIGN_UP" : {
 		"en" : "Getting started with Fenilux is quick and easy.",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Empezar con Fenilux es rápido y sencillo",
+		"cas" : "Empezar con Fenilux es rápido y sencillo",
+		"pt" : "Começar a usar a Fenilux é rápido e fácil",
+		"ru" : "Начать работу с Fenilux легко и быстро.",
+		"fr" : "Démarrer avec Fenilux est rapide et facile."
 	},
 
-"--DESCRIPTION--": {},
+
+"--DESCRIPTION--" : {},
 
 	"DESCRIPTION_HOME" : {
 		"en" : "End-to-end payments, transactions with freelancers, and the acquisition of digital assets in a single solution. Meet the financial technology platform that helps you realize your ambitions faster.",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Pagos de extremo a extremo, transacciones con freelancers y la adquisición de activos digitales en un solo lugar. Descubre la plataforma de tecnología financiera que te ayuda a alcanzar tus ambiciones más rápido.",
+		"cas" : "Pagos de extremo a extremo, transacciones con freelancers y adquisición de activos digitales en un solo lugar. Descubrí la plataforma de tecnología financiera que te ayuda a hacer realidad tus ambiciones más rápido.",
+		"pt" : "Pagamentos de ponta a ponta, transações com freelancers e aquisição de ativos digitais em uma única solução. Conheça a plataforma de tecnologia financeira que ajuda você a realizar suas ambições com mais rapidez.",
+		"ru" : "Платежи от начала и до конца, транзакции с фрилансерами и приобретение цифровых активов в едином решении. Встречайте финансовую технологическую платформу, которая помогает вам быстрее реализовать ваши амбиции.",
+		"de" : "",
+		"fr" : "Des paiements de bout en bout, des transactions avec des freelancers et l'acquisition d'actifs numériques dans une seule solution. Découvrez la plateforme de technologie financière qui vous aide à réaliser vos ambitions plus rapidement."
 	},
 
 	"DESCRIPTION_FORGOT_PASSWORD" : {
 		"en" : "Please enter your email below.",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Por favor, introduce tu correo electrónico a continuación",
+		"cas" : "Por favor, ingresá tu correo electrónico a continuación",
+		"pt" : "Por favor, insira o seu e-mail abaixo",
+		"ru" : "Пожалуйста, введите ваш адрес электронной почты ниже.",
+		"de" : "",
+		"fr" : "Veuillez saisir votre adresse e-mail ci-dessous."
 	},
 
 	"DESCRIPTION_SIGN_IN" : {
 		"en" : "Next Generation Payment Network",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "Servicio de pago de la Próxima Generación",
+		"cas" : "Servicio de pago de la Próxima Generación",
+		"pt" : "Serviço de pagamento da Próxima Geração",
+		"ru" : "Платёжная сеть нового поколения",
+		"de" : "",
+		"fr" : "Réseau de paiement nouvelle génération"
 	},
 
 	"DESCRIPTION_SIGN_UP" : {
 		"en" : "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.",
-		"pt" : "",
-		"ru" : "",
-		"de" : ""
+		"es" : "¿Eres nuevo en el universo de las redes de pago? Nos tomamos el tiempo para ayudarte a entender cómo funciona todo, para que puedas tomar las mejores decisiones para tu negocio.",
+		"cas" : "¿Nuevo en el mundo de las redes de pago? Nos tomamos el tiempo para ayudarte a entender cómo funciona todo, así podés tomar las mejores decisiones para tu negocio.",
+		"pt" : "Você é novo no ecossistema de redes de pagamento? Dedicamos um tempo para ajudá-lo a entender como tudo funciona para que você possa tomar as melhores decisões para o seu negócio.",
+		"ru" : "Новичок в экосистеме платёжных сетей? Мы уделяем время, чтобы помочь вам понять, как всё это работает, чтобы вы могли принимать наилучшие решения для вашего бизнеса.",
+		"de" : "",
+		"fr" : "Nouveau dans l'écosystème des réseaux de paiement ? Nous prenons le temps de vous aider à comprendre comment tout cela fonctionne afin que vous puissiez prendre les meilleures décisions pour votre entreprise."
 	},
+
 
 "--HEADER--": {},
 
 	"CHOOSE_A_LANGUAGE" : {
 		"en" : "choose a language",
-		"pt" : "",
-		"ru" : "",
+		"es" : "Escoge un idioma",
+		"cas" : "Elegí un idioma",
+		"pt" : "Escolha um idioma",
+		"ru" : "выберите язык",
+		"fr" : "choisissez une langue",
 		"de" : ""
 	},
 	"OPEN_MENU" : {
 		"en" : "open menu",
-		"pt" : "",
-		"ru" : "",
+		"es" : "Abrir menú",
+		"cas" : "Abrir menú",
+		"pt" : "Abrir menu",
+		"ru" : "открыть меню",
+		"fr" : "ouvrir le menu",
 		"de" : ""
 	},
 	"MENU" : {
 		"en" : ["Menu 1","Menu 2","Menu 3","Menu 4"],
-		"pt" : "",
-		"ru" : "",
+		"es" : ["Menú 1","Menú 2","Menú 3","Menú 4"],
+		"cas" : ["Menú 1","Menú 2","Menú 3","Menú 4"],
+		"pt" : ["Menu 1","Menu 2","Menu 3","Menu 4"],
+		"ru" : ["Menu 1","Menu 2","Menu 3","Menu 4"],
+		"fr" : ["Menu 1","Menu 2","Menu 3","Menu 4"],
 		"de" : ""
 	},
 
+
 "--TEXT--": {},
 
-		"LOGIN" : {
-			"en" : "Login",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+	"LOGIN" : {
+		"en" : "Login",
+		"es" : "Iniciar sesión",
+		"cas" : "Iniciar sesión",
+		"pt" : "Iniciar sessão",
+		"ru" : "Войти",
+		"fr" : "Connexion",
+		"de" : ""
+	},
+	"CONTACT_SALES" : {
+		"en" : "Contact sales",
+		"es" : "Contacto de ventas",
+		"cas" : "Contacto de ventas",
+		"pt" : "Contato de vendas",
+		"ru" : "Связаться с отделом продаж",
+		"fr" : "Contacter le service commercial",
+		"de" : ""
+	},
+
+	"PRIVACY_POLICY" : {
+		"en" : "Privacy policy",
+		"es" : "Política de privacidad",
+		"cas" : "Política de privacidad",
+		"pt" : "Política de Privacidade",
+		"ru" : "Политика конфиденциальности",
+		"fr" : "Politique de confidentialité",
+		"de" : ""
+	},
+
+	"TERMS_CONDITIONS" : {
+		"en" : "Terms & conditions",
+		"es" : "Términos y condiciones",
+		"cas" : "Términos y condiciones",
+		"pt" : "Termos e Condições",
+		"ru" : "Условия и положения",
+		"fr" : "Termes et conditions",
+		"de" : ""
 		},
-		"CONTACT_SALES" : {
-			"en" : "Contact sales",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+	"LEGAL_INFORMATION" : {
+		"en" : "Legal information",
+		"es" : "Acuerdos Legales",
+		"cas" : "Legales",
+		"pt" : "Informações Legais",
+		"ru" : "Юридическая информация",
+		"fr" : "Informations légales",
+		"de" : ""
 		},
 
-		"PRIVACY_POLICY" : {
-			"en" : "Privacy policy",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"TERMS_CONDITIONS" : {
-			"en" : "Terms & conditions",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"LEGAL_INFORMATION" : {
-			"en" : "Legal information",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+	"LEGAL_INFO" : {
+		"en" : "Legal info",
+		"es" : "Legales",
+		"cas" : "Legales",
+		"pt" : "Informações Legais",
+		"ru" : "Юридическая информация",
+		"fr" : "Infos légales",
+		"de" : ""
 		},
 
-		"LEGAL_INFO" : {
-			"en" : "Legal info",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"SUBMIT" : {
+		"en" : "Submit",
+		"es" : "Enviar",
+		"cas" : "Enviar",
+		"pt" : "Enviar",
+		"ru" : "Отправить",
+		"fr" : "Soumettre",
+		"de" : ""
+	},
 
-		"SUBMIT" : {
-			"en" : "Submit",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
 
-		"SIGN_IN" : {
-			"en" : "Sign in",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"SIGN_IN" : {
+		"en" : "Sign in",
+		"es" : "Inicia sesión",
+		"cas" : "Iniciá sesión",
+		"pt" : "Iniciar sessão",
+		"ru" : "Войти",
+		"fr" : "Se connecter",
+		"de" : ""
+	},
 
-		"I_AGREE" : {
-			"en" : "I have read the",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"I_AGREE" : {
+		"en" : "I have read the",
+		"es" : "He leído el",
+		"cas" : "He leído el",
+		"pt" : "Eu li o",
+		"ru" : "Я прочитал",
+		"fr" : "J'ai lu le",
+		"de" : ""
+	},
 
-		"NONE" : {
-			"en" : "None",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"NONE" : {
+		"en" : "None",
+		"es" : "Ninguno",
+		"cas" : "Ninguno",
+		"pt" : "Nenhum",
+		"ru" : "Нет",
+		"fr" : "Aucun",
+		"de" : ""
+	},
 
-		"PHONE" : {
-			"en" : "Phone",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"PHONE" : {
+		"en" : "Phone",
+		"es" : "Teléfono",
+		"cas" : "Teléfono",
+		"pt" : "Telefone",
+		"ru" : "Телефон",
+		"fr" : "Téléphone",
+		"de" : ""
+	},
 
-		"COUNTRY" : {
-			"en" : "Country",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"COUNTRY" : {
+		"en" : "Country",
+		"es" : "País",
+		"cas" : "País",
+		"pt" : "País",
+		"ru" : "Страна",
+		"fr" : "Pays",
+		"de" : ""
+	},
 
-		"FIRST_NAME" : {
+	"FIRST_NAME" : {
 			"en" : "First name",
-			"pt" : "",
-			"ru" : "",
+			"es" : "Nombre",
+			"cas" : "Nombre",
+			"pt" : "Nome",
+			"ru" : "Имя",
+			"fr" : "Prénom",
 			"de" : ""
+
 		},
 
-		"LAST_NAME" : {
-			"en" : "Last Name",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"LAST_NAME" : {
+		"en" : "Last Name",
+		"es" : "Apellido",
+		"cas" : "Apellido",
+		"pt" : "Sobrenome",
+		"ru" : "Фамилия",
+		"fr" : "Nom de famille",
+		"de" : ""
+	},
 
-		"COMPANY_NAME" : {
-			"en" : "Company name",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"COMPANY_NAME" : {
+		"en" : "Company name",
+		"es" : "Nombre de la empresa",
+		"cas" : "Nombre de la empresa",
+		"pt" : "Nome da empresa",
+		"ru" : "Название компании",
+		"fr" : "Nom de l'entreprise",
+		"de" : ""
+	},
 
-		"WORK_EMAIL" : {
+	"WORK_EMAIL" : {
 			"en" : "Work email",
-			"pt" : "",
-			"ru" : "",
+			"es" : "Correo electrónico laboral",
+			"cas" : "Correo electrónico laboral",
+			"pt" : "E-mail de trabalho",
+			"ru" : "Рабочая почта",
+			"fr" : "Email professionnel",
 			"de" : ""
-		},
+	},
 
-		"EMAIL" : {
-			"en" : "Email",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"EMAIL" : {
+		"en" : "Email",
+		"es" : "Correo electrónico",
+		"cas" : "Correo electrónico",
+		"pt" : "E-mail",
+		"ru" : "Электронная почта",
+		"fr" : "Courriel",
+		"de" : ""
+	},
 
-		"PASSWORD" : {
-			"en" : "Password",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"PASSWORD" : {
+		"en" : "Password",
+		"es" : "Contraseña",
+		"cas" : "Contraseña",
+		"pt" : "Senha",
+		"ru" : "Пароль",
+		"fr" : "Mot de passe",
+		"de" : ""
+	},
 
-		"FORGOTTEN_PASSWORD" : {
-			"en" : "Forgotten password",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"FORGOTTEN_PASSWORD" : {
+		"en" : "Forgotten password",
+		"es" : "¿Has olvidado tu contraseña?",
+		"cas" : "¿Olvidaste tu contraseña?",
+		"pt" : "Esqueceu a senha?",
+		"ru" : "Забытый пароль",
+		"fr" : "Mot de passe oublié",
+		"de" : ""
+	},
 
-		"TOGGLE_VISIBLE_PASSWORD" : {
-			"en" : "toggle visible password",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"TOGGLE_VISIBLE_PASSWORD" : {
+		"en" : "toggle visible password",
+		"es" : "Mostrar contraseña",
+		"cas" : "Mostrar contraseña",
+		"pt" : "Mostrar senha",
+		"ru" : "Переключить видимый пароль",
+		"fr" : "Basculer le mot de passe visible",
+		"de" : ""
+	},
 
-		"GET_STARTED" : {
-			"en" : "Get started",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"GET_STARTED" : {
+		"en" : "Get started",
+		"es" : "Empezar",
+		"cas" : "Empezar",
+		"pt" : "Começar",
+		"ru" : "Начать",
+		"fr" : "Commencer",
+		"de" : ""
+	},
+
+
 
 "--FORM_FORGOT_PASSWORD--": {},
 
-		"FORM_FORGOT_PASSWORD_BEFORE" : {
-			"en" : "Please enter your email below.",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"REMEMBERED_THE_PASSWORD" : {
-			"en" : "Remembered the password",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"BACK_TO_LOGIN" : {
-			"en" : "Back to Login",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"FORM_FORGOT_PASSWORD_BEFORE" : {
+		"en" : "Please enter your email below.",
+		"es" : "Por favor, introduce tu correo electrónico a continuación",
+		"cas" : "Por favor, ingresá tu correo electrónico a continuación",
+		"pt" : "Por favor, insira o seu e-mail abaixo",
+		"ru" : "Пожалуйста, введите ваш email ниже.",
+		"fr" : "Veuillez entrer votre email ci-dessous.",
+		"de" : ""
+	},
+	"REMEMBERED_THE_PASSWORD" : {
+		"en" : "Remembered the password",
+		"es" : "Recordar Contraseña",
+		"cas" : "Recordar Contraseña",
+		"pt" : "Lembrar senha",
+		"ru" : "Забыли пароль",
+		"fr" : "Se souvenir du mot de passe",
+		"de" : ""
+	},
+	"BACK_TO_LOGIN" : {
+		"en" : "Back to Login",
+		"es" : "Volver al inicio de sesión",
+		"cas" : "Volver al inicio de sesión",
+		"pt" : "Voltar ao início da sessão",
+		"ru" : "Вернуться к входу",
+		"fr" : "Retour à la connexion",
+		"de" : ""
+	},
 
 "--FORM_SIGN_IN--": {},
 
-		"FORM_SIGN_IN_BEFORE" : {
-			"en" : "Next Generation Payment Network",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_IN_ACCOUNT_IS" : {
-			"en" : "You don't have an account",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_IN_LOGIN_FORM_LINK" : {
-			"en" : "Contact us",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"FORM_SIGN_IN_BEFORE" : {
+		"en" : "Next Generation Payment Network",
+		"es" : "Servicio de pago de la Próxima Generación",
+		"cas" : "Servicio de pago de la Próxima Generación",
+		"pt" : "Serviço de pagamento da Próxima Geração",
+		"ru" : "Сеть следующего поколения платежей",
+		"fr" : "Réseau de paiement de nouvelle génération",
+		"de" : ""
+	},
+	"FORM_SIGN_IN_ACCOUNT_IS" : {
+		"en" : "You don't have an account",
+		"es" : "Usted no tiene una cuenta",
+		"cas" : "No tenés una cuenta",
+		"pt" : "Você não tem uma conta",
+		"ru" : "У вас нет учетной записи",
+		"fr" : "Vous n'avez pas de compte",
+		"de" : ""
+	},
+	"FORM_SIGN_IN_LOGIN_FORM_LINK" : {
+		"en" : "Contact us",
+		"es" : "Contacto",
+		"cas" : "Contactanos",
+		"pt" : "Entre em contato",
+		"ru" : "Свяжитесь с нами",
+		"fr" : "Contactez-nous",
+		"de" : ""
+
+	},
+
 
 "--FORM_SIGN_UP--": {},
 
-		"FORM_SIGN_UP_BEFORE" : {
-			"en" : "Get started with Fenilux",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_TITLE" : {
-			"en" : "Contact sales",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_WHAT_RANGE" : {
-			"en" : "What is your annual range",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_ACCOUNT_IS" : {
-			"en" : "Have an account",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_INFO_TITLE" : {
-			"en" : "Getting started with Fenilux <br>is quick and easy.",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_INFO_TEXT" : {
-			"en" : "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_INFO_SUPPORT" : {
-			"en" : "If you are an existing customer looking for support, please submit a support ticket or call",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_INFO_LIST" : {
-			"en" : ["Tell us about your business","Your payment processing needs","A little bit about you"],
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_INFO_LIST_SMALL" : {
-			"en" : ["The basics about your business and what you do.","How you plan to use Helcim — and the tax stuff."],
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_DONE_TITLE" : {
-			"en" : "Thank You <br>for Choosing Fenilux",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_DONE_TEXT" : {
-			"en" : "We sincerely appreciate your interest in our services. Rest assured that your message has been received, and our dedicated sales manager will promptly attend to your request. Should you have any further questions or require immediate assistance, please do not hesitate to reach out to us.",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
-		"FORM_SIGN_UP_DONE_BACK_HOME_PAGE" : {
-			"en" : "Back to the Home Page",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
-		},
+	"FORM_SIGN_UP_BEFORE" : {
+		"en" : "Get started with Fenilux",
+		"es" : "Comienza con Fenilux",
+		"cas" : "Empezá con Fenilux",
+		"pt" : "Comece a usar a Fenilux",
+		"ru" : "Начните с Fenilux",
+		"fr" : "Commencez avec Fenilux",
+		"de" : ""
+	},
+	"FORM_SIGN_UP_TITLE" : {
+		"en" : "Contact sales",
+		"es" : "Contáctate con ventas",
+		"cas" : "Contactate al equipo de ventas",
+		"pt" : "Fale com a equipe de vendas",
+		"ru" : "Свяжитесь с отделом продаж",
+		"fr" : "Contactez les ventes",
+		"de" : ""
+	},
+	"FORM_SIGN_UP_WHAT_RANGE" : {
+		"en" : "What is your annual range",
+		"es" : "¿Cuál es tu rango anual?",
+		"cas" : "¿Cuál es tu rango anual?",
+		"pt" : "Qual é a sua faixa anual",
+		"ru" : "Какой ваш годовой диапазон",
+		"fr" : "Quel est votre intervalle annuel",
+		"de" : ""
+	},
+
+	"FORM_SIGN_UP_ACCOUNT_IS" : {
+		"en" : "Have an account",
+		"es" : "Tener una cuenta",
+		"cas" : "Tener una cuenta",
+		"pt" : "Ter uma conta",
+		"ru" : "Есть учетная запись",
+		"fr" : "Avoir un compte",
+		"de" : ""
+	},
+	"FORM_SIGN_UP_INFO_TITLE" : {
+		"en" : "Getting started with Fenilux <br>is quick and easy.",
+		"es" : "Empezar con Fenilux es rápido y sencillo",
+		"cas" : "Empezar con Fenilux es rápido y sencillo",
+		"pt" : "Começar a usar a Fenilux <br>é rápido e fácil.",
+		"ru" : "Начать работу с Fenilux <br>легко и быстро.",
+		"fr" : "Commencer avec Fenilux <br>est rapide et facile.",
+		"de" : ""
+	},
+	"FORM_SIGN_UP_INFO_TEXT" : {
+		"en" : "New to payment networks ecosystem? We take the time to help you understand how it all works so you can make the best decisions for your business.",
+		"es" : "¿Eres nuevo en el universo de las redes de pago? Nos tomamos el tiempo para ayudarte a entender cómo funciona todo, para que puedas tomar las mejores decisiones para tu negocio.",
+		"cas" : "¿Nuevo en el mundo de las redes de pago? Nos tomamos el tiempo para ayudarte a entender cómo funciona todo, así podés tomar las mejores decisiones para tu negocio.",
+		"pt" : "Você é novo no ecossistema de redes de pagamento? Dedicamos um tempo para ajudá-lo a entender como tudo funciona para que você possa tomar as melhores decisões para o seu negócio.",
+		"ru" : "Новичок в экосистеме платежных сетей? Мы уделяем время, чтобы помочь вам понять, как все это работает, чтобы вы могли принимать лучшие решения для своего бизнеса.",
+		"fr" : "Nouveau dans l'écosystème des réseaux de paiement ? Nous prenons le temps de vous aider à comprendre comment tout fonctionne afin que vous puissiez prendre les meilleures décisions pour votre entreprise.",
+		"de" : ""
+	},
+
+
+	"FORM_SIGN_UP_INFO_SUPPORT" : {
+		"en" : "If you are an existing customer looking for support, please submit a support ticket or call",
+		"es" : "Si ya eres cliente y buscas ayuda, por favor envía un ticket de soporte o llama.",
+		"cas" : "Si ya sos cliente y necesitás ayuda, por favor mandá un ticket de soporte o llamá.",
+		"pt" : "Se você já é um cliente em busca de suporte, envie um ticket de suporte ou ligue",
+		"ru" : "Если вы уже являетесь клиентом и ищете поддержку, пожалуйста, отправьте запрос в службу поддержки или позвоните.",
+		"fr" : "Si vous êtes un client existant à la recherche de support, veuillez soumettre un ticket de support ou appeler.",
+		"de" : ""
+	},
+
+	"FORM_SIGN_UP_INFO_LIST" : {
+		"en" : ["Tell us about your business","Your payment processing needs","A little bit about you"],
+		"es" : ["Cuéntanos acerca de tu negocio", "Tus necesidades de procesamiento de pagos", "Un poco sobre ti"],
+		"cas" : ["Contanos sobre tu negocio", "Tus necesidades de procesamiento de pagos", "Un poco sobre vos"],
+		"pt" : ["Conte-nos sobre seu negócio","Suas necessidades de processamento de pagamentos","Um pouco sobre você"],
+		"ru" : ["Расскажите о своем бизнесе", "Ваши потребности в обработке платежей", "Немного о вас"],
+		"de" : "",
+		"fr" : ["Parlez-nous de votre entreprise","Vos besoins en traitement des paiements","Un peu sur vous"]
+	},
+	"FORM_SIGN_UP_INFO_LIST_SMALL" : {
+		"en" : ["The basics about your business and what you do.","How you plan to use Helcim — and the tax stuff."],
+		"es" : ["Los conceptos básicos sobre tu negocio y lo que haces.", "¿Cómo piensas usar Helcim — y todo lo relacionado con los impuestos?"],
+		"cas" : ["Lo básico sobre tu negocio y qué es lo que hacés.","¿Cómo planeás usar Helcim — y todo lo relacionado con los impuestos?"],
+		"pt" : "",
+		"ru" : ["Основные сведения о вашем бизнесе и о том, чем вы занимаетесь.", "Как вы планируете использовать Helcim — и налоговые вопросы."],
+		"de" : "",
+		"fr" : ["Les bases de votre entreprise et de ce que vous faites.","Comment vous prévoyez d'utiliser Helcim — et les questions fiscales."]
+	},
+	"FORM_SIGN_UP_DONE_TITLE" : {
+		"en" : "Thank You <br>for Choosing Fenilux",
+		"es" : "Gracias <br>por elegir Fenilux.",
+		"cas" : "Gracias <br>por elegir Fenilux.",
+		"pt" : "Obrigado <br>por escolher a Fenilux",
+		"ru" : "Спасибо <br>за выбор Fenilux",
+		"de" : "",
+		"fr" : "Merci <br>d'avoir choisi Fenilux"
+	},
+	"FORM_SIGN_UP_DONE_TEXT" : {
+		"en" : "We sincerely appreciate your interest in our services. Rest assured that your message has been received, and our dedicated sales manager will promptly attend to your request. Should you have any further questions or require immediate assistance, please do not hesitate to reach out to us.",
+		"es" : "Apreciamos sinceramente tu interés en nuestros servicios. Ten la seguridad de que tu mensaje ha sido recibido y nuestro dedicado gerente de ventas atenderá prontamente tu solicitud. Si tienes alguna pregunta adicional o necesitas asistencia inmediata, no dudes en ponerse en contacto con nosotros.",
+		"cas" : "Apreciamos sinceramente tu interés en nuestros servicios. Quedate tranquilo que hemos recibido tu mensaje, y nuestro dedicado gerente de ventas atenderá tu solicitud prontamente. Si tenés alguna pregunta adicional o necesitás asistencia inmediata, no dudes en contactarnos.",
+		"pt" : "Agradecemos sinceramente o seu interesse em nossos serviços. Tenha certeza de que sua mensagem foi recebida e nosso gerente de vendas dedicado atenderá prontamente sua solicitação. Caso você tenha mais alguma dúvida ou precise de assistência imediata, não hesite em entrar em contato conosco.",
+		"ru" : "Мы искренне благодарим вас за интерес к нашим услугам. Будьте уверены, что ваше сообщение получено, и наш специализированный менеджер по продажам незамедлительно рассмотрит ваш запрос. Если у вас возникнут дополнительные вопросы или вам потребуется немедленная помощь, не стесняйтесь обращаться к нам.",
+		"de" : "",
+		"fr" : "Nous apprécions sincèrement votre intérêt pour nos services. Soyez assuré que votre message a été reçu et que notre responsable commercial dédié répondra rapidement à votre demande. Si vous avez d'autres questions ou avez besoin d'une assistance immédiate, n'hésitez pas à nous contacter."
+	},
+	"FORM_SIGN_UP_DONE_BACK_HOME_PAGE" : {
+		"en" : "Back to the Home Page",
+		"es" : "Volver a la página de inicio",
+		"cas" : "Volver a la página de inicio",
+		"pt" : "Voltar à página inicial",
+		"ru" : "Назад на Главную страницу",
+		"de" : "",
+		"fr" : "Retour à la page d'accueil"
+	},
 
 "--FOOTER--": {},
 
 		"COPYRIGHT" : {
-			"en" : "Fenix Financial Technologies",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"en" : "Fenilux Financial Technologies",
+			"es" : "Fenilux Financial Technologies",
+			"cas" : "Fenilux Financial Technologies",
+			"pt" : "Fenix Tecnologia Financeira",
+			"ru" : "Fenilux Financial Technologies",
+			"de" : "",
+			"fr" : "Fenilux Financial Technologies"
 		},
 		"FOOTER_ADDRESS" : {
 			"en" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+			"cas" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+			"pt" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+			"ru" : "R. Cristovão Nunes Pires, 110 - sala 902 <br>Centro - Florianópolis/SC - Brasil",
+			"de" : "",
+			"fr" : "R. Cristovão Nunes Pires, 110 - bureau 902 <br>Centre - Florianópolis/SC - Brésil"
 		},
 		"FOOTER_CONTACT" : {
 			"en" : "Contact",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Contacto",
+			"cas" : "Contacto",
+			"pt" : "Contato",
+			"ru" : "Контакты",
+			"de" : "",
+			"fr" : "Contact"
 		},
 
 "--HOME--": {},
 
 	"--FIRST-SCREEN--": {},
-
 		"FIRST_SCREEN_TITLE" : {
 			"en" : "<b>Next Generation</b> Payment Network",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Servicio de pago de la Próxima Generación",
+			"cas" : "Servicio de pago de la Próxima Generación",
+			"pt" : "Serviço de pagamentos da <b>Próxima Geração</b>",
+			"ru" : "<b>Сеть платежей следующего поколения</b>",
+			"de" : "",
+			"fr" : "<b>Réseau de paiement de nouvelle génération</b>"
 		},
 
 	"--READY-TO-GET-STARTED--": {},
 
 		"READY_GET_STARTED_TITLE" : {
 			"en" : "Ready to get started",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Listos para empezar",
+			"cas" : "Listos para comenzar",
+			"pt" : "Pronto para começar",
+			"ru" : "Готовы начать",
+			"de" : "",
+			"fr" : "Prêt à commencer"
 		},
 
-	"--workflow--": {},
+	"--ECOSYSTEM--": {},
 
-		"workflow_TITLE" : {
+		"ECOSYSTEM_TITLE" : {
 			"en" : "Key Partnerships",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Socios estratégicos",
+			"cas" : "Socios estratégicos",
+			"pt" : "Parcerias estratégicas",
+			"ru" : "Ключевые партнёры",
+			"de" : "",
+			"fr" : "Partenariats clés"
 		},
-		"workflow_BEFORE" : {
+		"ECOSYSTEM_BEFORE" : {
 			"en" : "Fenilux ecosystem",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Ecosistema Fenilux",
+			"cas" : "Ecosistema Fenilux",
+			"pt" : "Ecossistema Fenilux",
+			"ru" : "Экосистема Fenilux",
+			"de" : "",
+			"fr" : "Écosystème Fenilux"
 		},
 
 	"--WORKFLOW--": {},
 
 		"WORKFLOW_TITLE" : {
 			"en" : "How it Works",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Cómo funciona",
+			"cas" : "Cómo funciona",
+			"pt" : "Como funciona",
+			"ru" : "Как это работает",
+			"de" : "",
+			"fr" : "Comment ça marche"
 		},
 		"WORKFLOW_BEFORE" : {
 			"en" : "Fenilux workflow",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Workflow de Trabajo Fenilux",
+			"cas" : "Workflow de Trabajo Fenilux",
+			"pt" : "Workflow Fenilux",
+			"ru" : "Процесс работы с Fenilux",
+			"de" : "",
+			"fr" : "Workflow Fenilux"
 		},
 		"WORKFLOW_LIST" : {
 			"en" : ["Two parties, the Client and the Contractor, sign a contract for services, goods, or freelance work.","They specify Fenilux as their Payment Agent in the Payment Terms section of that contract.","The Client, Contractor, and Fenilux sign a tripartite Agreement regulating the services of the Payment Agent.","Fenilux undertakes to receive funds from the Client and transfer them to the Contractor.","The additional services may include escrow, invoice processing and aggregation, and KYC procedures.","Fenilux ensures smooth financial transactions, enhancing efficiency and reliability."],
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : ["Dos partes, el Cliente y el Contratista, firman un contrato de servicios, bienes o trabajo independiente.", "Especifican a Fenilux como su Agente de pago en la sección de Términos de pago de ese contrato.", "El cliente, el contratista y Fenilux firman un Acuerdo tripartito que regula los servicios del Agente de pago.", "Fenilux se compromete a recibir los fondos del Cliente y transferirlos al Contratista.", "Los servicios adicionales pueden incluir: depósito en garantía, procesamiento y agregación de facturas, y procedimientos de KYC.", "Fenilux garantiza transacciones financieras sin problemas, mejorando la eficiencia y fiabilidad."],
+			"cas" : ["Dos partes, el Cliente y el Contratista, firman un contrato de servicios, bienes o trabajo independiente.", "Especifican a Fenilux como su Agente de pago en la sección de Términos de pago de ese contrato.", "El cliente, el contratista y Fenilux firman un Acuerdo tripartito que regula los servicios del Agente de pago.", "Fenilux se compromete a recibir los fondos del Cliente y transferirlos al Contratista.", "Los servicios adicionales pueden incluir: depósito en garantía, procesamiento y agregación de facturas, y procedimientos de KYC.", "Fenilux garantiza transacciones financieras sin problemas, mejorando la eficiencia y fiabilidad."],
+			"pt" : ["Duas partes, o Cliente e o Contratante, assinam um contrato de serviços, bens ou trabalho freelance.","Eles especificam a Fenilux como seu Agente de Pagamento na seção Termos de Pagamento desse contrato.","O Cliente, o Contratante e a Fenilux assinar um Acordo tripartido regulando os serviços do Agente Pagador.","A Fenilux compromete-se a receber fundos do Cliente e transferi-los para o Contratante.","Os serviços adicionais podem incluir depósito em garantia, processamento e agregação de faturas e procedimentos KYC.", "A Fenilux garante transações financeiras tranquilas, aumentando a eficiência e a confiabilidade."],
+			"ru" : ["Две стороны, Клиент и Исполнитель, подписывают договор на оказание услуг, поставку товаров или фриланс-работу.","Они указывают Fenilux как своего агента по оплате в разделе Условия оплаты этого контракта.","Клиент, Исполнитель и Fenilux подписывают трехстороннее Соглашение, регулирующее услуги агента по оплате.","Fenilux обязуется получать средства от Клиента и передавать их Исполнителю.","Дополнительные услуги могут включать эскроу, обработку и агрегацию счетов и процедуры KYC.","Fenilux обеспечивает безопасные финансовые транзакции, повышая эффективность и надежность."],
+			"de" : "",
+			"fr" : ["Les deux parties, le Client et le Prestataire, signent un contrat pour des services, des biens ou des travaux indépendants.","Ils spécifient Fenilux comme leur Agent de paiement dans la section Conditions de paiement de ce contrat.","Le Client, le Prestataire et Fenilux signent un Accord tripartite régissant les services de l'Agent de paiement.","Fenilux s'engage à recevoir des fonds du Client et à les transférer au Prestataire.","Les services supplémentaires peuvent inclure l'entiercement, le traitement et l'agrégation des factures, et les procédures KYC.","Fenilux garantit des transactions financières fluides, améliorant ainsi l'efficacité et la fiabilité."]
 		},
 
 	"--BENEFITS--": {},
 
 		"BENEFITS_TITLE" : {
 			"en" : "Our core concepts",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Nuestros conceptos centrales",
+			"cas" : "Nuestros conceptos centrales",
+			"pt" : "Nossos conceitos centrais",
+			"ru" : "Наши основные концепции",
+			"de" : "",
+			"fr" : "Nos concepts clés"
 		},
 		"BENEFITS_BEFORE" : {
 			"en" : "Fenilux Benefits",
-			"pt" : "",
-			"ru" : "",
-			"de" : ""
+			"es" : "Beneficios de Fenilux",
+			"cas" : "Beneficios de Fenilux",
+			"pt" : "Benefícios da Fenilux",
+			"ru" : "Преимущества Fenilux",
+			"de" : "",
+			"fr" : "Avantages de Fenilux"
 		},
+
 		"BENEFITS_LIST" : {
 			"en" : [
 				{
@@ -449,32 +645,61 @@
 					"text" : "Our goal is to offer unbeatable prices to our customers, empowering their buying potential. Our business model is set to change the way merchants sell and earn."
 				}
 			],
+			"es" : [
+				{
+					"name" : "El mejor <br>Producto",
+					"text" : "Nuestro objetivo es ofrecer nuestros servicios en el pináculo de la excelencia tecnológica, perfectamente integrados con una experiencia de usuario sin igual"
+				},
+				{
+					"name" : "Potenciando <br>el compromiso de los clientes",
+					"text" : "Nuestros clientes son centrales para nuestra misión, actuando como promotores clave y teniendo el poder de dar forma rápidamente a nuestros productos y negocio."
+				},
+				{
+					"name" : "Revolucionando <br>la Economía",
+					"text" : "Nuestro objetivo es ofrecer precios imbatibles a nuestros clientes, potenciando su capacidad de compra. Nuestro modelo de negocio está diseñado para cambiar la forma en que los comerciantes venden y ganan."
+				}
+			],
+
+			"cas" : [
+				{
+					"name" : "El mejor <br>Producto",
+					"text" : "Nuestro objetivo es ofrecer nuestros servicios en el pináculo de la excelencia tecnológica, perfectamente integrados con una experiencia de usuario sin igual"
+				},
+				{
+					"name" : "Potenciando <br>el compromiso de los clientes",
+					"text" : "Nuestros clientes son centrales para nuestra misión, actuando como promotores clave y teniendo el poder de dar forma rápidamente a nuestros productos y negocio."
+				},
+				{
+					"name" : "Revolucionando <br>la Economía",
+					"text" : "Nuestro objetivo es ofrecer precios imbatibles a nuestros clientes, potenciando su capacidad de compra. Nuestro modelo de negocio está diseñado para cambiar la forma en que los comerciantes venden y ganan."
+				}
+			],
 			"pt" : [
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "O melhor <br>produto",
+					"text" : "Nosso objetivo é fornecer nossos serviços de máxima excelência tecnológica, perfeitamente integrados com uma experiência de usuário incomparável."
 				},
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "Potencializando <br>o compromisso dos clientes",
+					"text" : "Nossos clientes são fundamentais para nossa missão, atuando como promotores-chave e tendo o poder de moldar nossos produtos e negócios rapidamente."
 				},
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "Revolucionando <br>a Economia",
+					"text" : "Nosso objetivo é oferecer preços imbatíveis aos nossos clientes, potencializando seu potencial de compra. Nosso modelo de negócios está definido para mudar a forma como os comerciantes vendem e ganham."
 				}
 			],
 			"ru" : [
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "Лучший <br>Продукт",
+					"text" : "Наша цель - предоставлять наши услуги на вершине технологического совершенства, идеально интегрированные с непревзойденным пользовательским опытом."
 				},
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "Повышение <br>вовлеченности клиентов",
+					"text" : "Наши клиенты являются основой нашей миссии, выступая в качестве ключевых сторонников и имея возможность быстро формировать наши продукты и бизнес."
 				},
 				{
-					"name" : "NAME",
-					"text" : "TEXT"
+					"name" : "Революционизация <br>Экономики",
+					"text" : "Наша цель - предложить нашим клиентам непревзойденные цены, повышая их покупательную способность. Наш бизнес-модель разработана для изменения способа продажи и заработка для торговцев."
 				}
 			],
 			"de" : [
@@ -490,6 +715,21 @@
 					"name" : "NAME",
 					"text" : "TEXT"
 				}
+			],
+			"fr" : [
+				{
+					"name" : "Meilleur <br>Produit",
+					"text" : "Notre objectif est de fournir nos services au sommet de l'excellence technologique, intégrés de manière transparente avec une expérience utilisateur inégalée."
+				},
+				{
+					"name" : "Renforcement de l'engagement <br>client",
+					"text" : "Nos clients sont au cœur de notre mission, agissant en tant que promoteurs clés et ayant le pouvoir de façonner rapidement nos produits et notre entreprise."
+				},
+				{
+					"name" : "Révolutionner l'Économie",
+					"text" : "Notre objectif est d'offrir des prix imbattables à nos clients, renforçant leur potentiel d'achat. Notre modèle d'entreprise est conçu pour changer la manière dont les commerçants vendent et gagnent."
+				}
 			]
+
 		}
 }
