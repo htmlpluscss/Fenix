@@ -39,7 +39,7 @@ const w3cjs            = require('gulp-w3cjs');
 
 const site             = 'Fenilux';
 const domain           = 'fenilux.io';
-const langs            = ['en','es','ar','pt','ru','fr','de'];
+const langs            = ['en','es','ar','pt','ru','fr'];
 const translate        = require('./translations');
 
 // если нет перевода
@@ -87,7 +87,10 @@ const html = (files, since = {}) => {
 					},
 					path: 'src/'
 				}))
-
+				.pipe(w3cjs({
+					url : 'https://validator.w3.org/nu/'
+				}))
+				.pipe(w3cjs.reporter())
 				.pipe(replace('css/styles.css', 'css/styles.min.css?' + Date.now()))
 				.pipe(replace('js/scripts.js', 'js/scripts.min.js?' + Date.now()))
 				.pipe(gulp.dest('build' + folder ))
