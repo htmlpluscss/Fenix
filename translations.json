@@ -497,12 +497,12 @@
 
 	"--FIRST-SCREEN--": {},
 		"FIRST_SCREEN_TITLE" : {
-			"en" : "<b>Next Generation</b> Payment Network</b>",
-			"es" : "<b>Servicio de pago de la Próxima Generación</b>",
-			"ar" : "<b>Servicio de pago de la Próxima Generación</b>",
-			"pt" : "<b>Serviço de pagamentos da <b>Próxima Geração</b>",
-			"ru" : "<b>Сеть платежей следующего поколения</b>",
-			"fr" : "<b>Réseau de paiement de nouvelle génération</b>"
+			"en" : "<b>Next Generation</b> Payment Network",
+			"es" : "Servicio de pago de la <b>Próxima Generación</b>",
+			"ar" : "Servicio de pago de la <b>Próxima Generación</b>",
+			"pt" : "Serviço de pagamentos da <b>Próxima Geração</b>",
+			"ru" : "<b>Сеть платежей</b> следующего поколения",
+			"fr" : "<b>Réseau de paiement</b> de nouvelle génération"
 		},
 
 	"--READY-TO-GET-STARTED--": {},
