@@ -389,6 +389,30 @@
 		"ru" : "Какой Ваш годовой диапазон",
 		"fr" : "Quel est votre intervalle annuel"
 	},
+	"BELOW_$250K" : {
+		"en" : "below $250K",
+		"es" : "BELOW_$250K",
+		"ar" : "BELOW_$250K",
+		"pt" : "BELOW_$250K",
+		"ru" : "BELOW_$250K",
+		"fr" : "BELOW_$250K"
+	},
+	"$100M_AND_ABOVE" : {
+		"en" : "$100M and above",
+		"es" : "$100M_AND_ABOVE",
+		"ar" : "$100M_AND_ABOVE",
+		"pt" : "$100M_AND_ABOVE",
+		"ru" : "$100M_AND_ABOVE",
+		"fr" : "$100M_AND_ABOVE"
+	},
+	"CANNOT_SHARE_REVENUE" : {
+		"en" : "cannot share revenue",
+		"es" : "CANNOT_SHARE_REVENUE",
+		"ar" : "CANNOT_SHARE_REVENUE",
+		"pt" : "CANNOT_SHARE_REVENUE",
+		"ru" : "CANNOT_SHARE_REVENUE",
+		"fr" : "CANNOT_SHARE_REVENUE"
+	},
 
 	"FORM_SIGN_UP_ACCOUNT_IS" : {
 		"en" : "Have an account",
@@ -498,9 +522,9 @@
 	"--FIRST-SCREEN--": {},
 		"FIRST_SCREEN_TITLE" : {
 			"en" : "<b>Next Generation</b> Payment Network",
-			"es" : "Servicio de pago de la <b>Próxima Generación</b>",
-			"ar" : "Servicio de pago de la <b>Próxima Generación</b>",
-			"pt" : "Serviço de pagamentos da <b>Próxima Geração</b>",
+			"es" : "<b>Servicio de pago</b> de la Próxima Generación",
+			"ar" : "<b>Servicio de pago</b> de la Próxima Generación",
+			"pt" : "<b>Serviço de pagamentos</b> da Próxima Geração",
 			"ru" : "<b>Сеть платежей</b> следующего поколения",
 			"fr" : "<b>Réseau de paiement</b> de nouvelle génération"
 		},
