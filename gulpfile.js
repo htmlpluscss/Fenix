@@ -39,7 +39,7 @@ const w3cjs            = require('gulp-w3cjs');
 
 const site             = 'Fenilux';
 const domain           = 'fenilux.io';
-const langs            = ['en','es','ar','pt','ru','fr'];
+const langs            = ['en','es','cas','pt','ru','fr'];
 const translate        = require('./translations');
 
 // если нет перевода
