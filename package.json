@@ -4,7 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "kovrigin",
   "license": "ISC",
@@ -17,6 +18,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-debug": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-minify": "^3.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-nunjucks-render": "^2.2.3",
@@ -33,7 +35,9 @@
     "postcss-color-function": "^4.1.0",
     "postcss-extend": "^1.0.5",
     "postcss-import": "^14.1.0",
-    "postcss-nested": "^5.0.6",
-    "gulp-htmlmin": "^5.0.1"
+    "postcss-nested": "^5.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

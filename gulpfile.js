@@ -37,8 +37,11 @@ const remember         = require('gulp-remember');
 const debug            = require('gulp-debug');
 const w3cjs            = require('gulp-w3cjs');
 
-const site             = 'Fenilux';
-const domain           = 'fenilux.io';
+require('dotenv').config();
+
+const site = process.env.SITE_NAME;
+const domain = process.env.DOMAIN;
+
 const langs            = ['en','es','cas','pt','ru','fr'];
 const translate        = require('./translations');
 
@@ -82,8 +85,7 @@ const html = (files, since = {}) => {
 						subdomain : folder,
 						lang,
 						langs,
-						translate,
-		//				build : true
+						translate
 					},
 					path: 'src/'
 				}))
@@ -91,6 +93,44 @@ const html = (files, since = {}) => {
 					url : 'https://validator.w3.org/nu/'
 				}))
 				.pipe(w3cjs.reporter())
+				.pipe(gulp.dest('build' + folder ))
+				.on('end', resolve)
+		});
+
+	});
+
+	return Promise.all(promises);
+
+};
+
+const htmlBuild = () => {
+
+	const promises = langs.map( lang => {
+
+		let folder = '';
+
+		if ( lang !== 'en' ) {
+
+			folder = '/' + lang;
+
+		}
+
+		return new Promise((resolve, reject) => {
+
+			gulp.src('src/**/index.html')
+				.pipe(nunjucksRender({
+					data: {
+						url: 'https://' + domain,
+						domain,
+						site,
+						subdomain : folder,
+						lang,
+						langs,
+						translate,
+						build : true
+					},
+					path: 'src/'
+				}))
 				.pipe(replace('css/styles.css', 'css/styles.min.css?' + Date.now()))
 				.pipe(replace('js/scripts.js', 'js/scripts.min.js?' + Date.now()))
 				.pipe(gulp.dest('build' + folder ))
@@ -106,6 +146,7 @@ const html = (files, since = {}) => {
 gulp.task('html', () => html('src/**/index.html', {since: gulp.lastRun('html')}));
 gulp.task('html:touch', () => html('src/**/index.html'));
 gulp.task('html:main', () => html('src/index.html', {}));
+gulp.task('html:build', () => htmlBuild());
 
 gulp.task('css', () => {
 
@@ -197,6 +238,11 @@ gulp.task('watch', () => {
 	gulp.watch(['src/_include/**/*.html','src/template/**/*.html'], gulp.series('html:touch'));
 	gulp.watch(['src/**/*.*', '!src/**/*.{css,html,js}'], gulp.series('copy'));
 });
+
+gulp.task('build', gulp.series(
+	'clear',
+	gulp.parallel('copy','html:build','css','js')
+	));
 
 gulp.task('default', gulp.series(
 	'clear',
