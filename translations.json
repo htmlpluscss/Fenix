@@ -255,7 +255,7 @@
 			"es" : "Correo electrónico laboral",
 			"cas" : "Correo electrónico laboral",
 			"pt" : "E-mail de trabalho",
-			"ru" : "Рабочая почта",
+			"ru" : "Рабочий e-mail",
 			"fr" : "Email professionnel"
 	},
 
@@ -384,7 +384,7 @@
 		"es" : "¿Cuál es tu rango anual?",
 		"cas" : "¿Cuál es tu rango anual?",
 		"pt" : "Qual é a sua faixa anual?",
-		"ru" : "Какой Ваш годовой диапазон?",
+		"ru" : "Какой Ваш годовой доход?",
 		"fr" : "Quel est votre intervalle annuel?"
 	},
 	"BELOW_$250K" : {
