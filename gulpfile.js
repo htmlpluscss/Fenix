@@ -41,6 +41,7 @@ require('dotenv').config();
 
 const site = process.env.SITE_NAME;
 const domain = process.env.DOMAIN;
+const action = process.env.API;
 
 const langs            = ['en','es','cas','pt','ru','fr'];
 const translate        = require('./translations');
@@ -82,6 +83,7 @@ const html = (files, since = {}) => {
 						url: 'https://' + domain,
 						domain,
 						site,
+						action,
 						subdomain : folder,
 						lang,
 						langs,
@@ -123,6 +125,7 @@ const htmlBuild = () => {
 						url: 'https://' + domain,
 						domain,
 						site,
+						action,
 						subdomain : folder,
 						lang,
 						langs,
