@@ -21,8 +21,6 @@
 
 				</div>
 
-{% if not headerBtnOff %}
-
 				<a href="{{ subdomain }}/sign-in/" class="header__btn btn btn--brown">
 					<span class="btn__inner">
 						{{ translate.LOGIN[lang] }}
@@ -34,8 +32,6 @@
 						{{ translate.CONTACT_SALES[lang] }}
 					</span>
 				</a>
-
-{% endif %}
 
 {% include "template/lang.html" %}
 
