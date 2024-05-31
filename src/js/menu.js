@@ -22,7 +22,11 @@
 
 			btn.addEventListener('mouseleave', ()=>{
 
-				btn.classList.remove('is-open');
+				setTimeout( ()=> {
+
+					btn.classList.remove('is-open');
+
+				},100);
 
 			});
 
