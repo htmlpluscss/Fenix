@@ -18,20 +18,6 @@
 
 		});
 
-		[...btns].forEach( btn => {
-
-			btn.addEventListener('mouseleave', ()=>{
-
-				setTimeout( ()=> {
-
-					btn.classList.remove('is-open');
-
-				},100);
-
-			});
-
-		});
-
 	}
 
 })(document.querySelectorAll('.menu__btn'));

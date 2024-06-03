@@ -140,24 +140,43 @@
 
 		}
 
-		&.is-open {
+		@media $mdWidth {
 
-			--bgBorder: var(--brown);
+			&.is-open {
+
+				--bgBorder: var(--brown);
+
+			}
 
 		}
 
 	}
 
-	&__open-hidden,
-	&__btn.is-open &__open-visible {
+	&__open-hidden {
 
 		opacity: 0;
 
 	}
 
-	&__btn.is-open &__open-hidden {
+	@media $mdWidth {
 
-		opacity: 1;
+		&__btn.is-open &__open-visible {
+
+			opacity: 0;
+
+		}
+
+		&__btn.is-open &__open-hidden {
+
+			opacity: 1;
+
+		}
+
+		&__btn.is-open + &__list {
+
+			display: block;
+
+		}
 
 	}
 
@@ -186,12 +205,6 @@
 			opacity: 0;
 
 		}
-
-	}
-
-	&__btn.is-open + &__list {
-
-		display: block;
 
 	}
 
