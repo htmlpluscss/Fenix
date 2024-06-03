@@ -4,7 +4,7 @@
 
 		window.addEventListener('click', event => {
 
-			if ( event.target.closest('.menu__list') && event.target.closest('a') ) {
+			if ( event.detail > 1 || ( event.target.closest('.menu__list') && event.target.closest('a') ) ) {
 
 				return;
 
